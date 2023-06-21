@@ -97,8 +97,8 @@ const Landing = () => {
                   <div className="flex  gap-4 mt-10 text-center">
                     <a
                       href="/"
-                      className={`slide-text   hidden hover-button bg-gradient-to-r from-[#92468E] to-[#38235D]  md:inline-flex items-center     border          text-white   ${
-                        currentSlide === 1 ? "animated" : ""
+                      className={`slide-text p-2 rounded-full  hidden hover-button bg-gradient-to-r from-[#92468E] to-[#38235D]  md:inline-flex items-center     border          text-white   ${
+                        currentSlide === 0 ? "animated" : ""
                       }`}
                     >
                       <span className="text-sm font-medium">
@@ -108,6 +108,8 @@ const Landing = () => {
                       <BsArrowRight className="text-lg ml-2" />
                     </a>
                   </div>
+
+                
                 </div>
 
                 {/* <div class="  sm:max-w-xs lg:max-w-xl text-left md:ml-8 lg:order-1 order-2   lg:mt-0  ">
@@ -176,7 +178,7 @@ const Landing = () => {
                   <div className="flex  gap-4 mt-10 text-center">
                     <a
                       href="/"
-                      className={`slide-text   hidden hover-button bg-gradient-to-r from-[#92468E] to-[#38235D]  md:inline-flex items-center     border          text-white   ${
+                      className={`slide-text rounded-full  p-2 hidden hover-button bg-gradient-to-r from-[#92468E] to-[#38235D]  md:inline-flex items-center     border          text-white   ${
                         currentSlide === 1 ? "animated" : ""
                       }`}
                     >

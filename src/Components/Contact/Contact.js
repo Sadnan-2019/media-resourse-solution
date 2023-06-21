@@ -89,7 +89,7 @@ const Contact = () => {
                   <div className="py-5">
                     <input
                       type="submit"
-                      className="btn bg-gradient-to-r from-[#92468E] to-[#38235D]  w-full max-w-x "
+                      className="btn bg-gradient-to-r from-[#92468E] to-[#38235D] text-white  w-full max-w-x "
                       value="Send message"
                     />
                   </div>
