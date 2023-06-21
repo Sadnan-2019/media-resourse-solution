@@ -7,6 +7,8 @@ import Review from './Components/Review/Review';
 import Clients from './Components/Clients/Clients';
 import Footer from './Components/Footer/Footer';
 import Working from './Components/Working/Working';
+import Achievement from './Components/Achievement/Achievement';
+import Contact from './Components/Contact/Contact';
 // import Working from './Components/Working/Working';
 
 function App() {
@@ -18,7 +20,9 @@ function App() {
       <Review></Review>
       <Clients></Clients>
       <Working></Working>
+      <Achievement></Achievement>
       <Footer></Footer>
+      <Contact></Contact>
    
       
     </div>
