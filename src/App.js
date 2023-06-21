@@ -21,8 +21,9 @@ function App() {
       <Clients></Clients>
       <Working></Working>
       <Achievement></Achievement>
-      <Footer></Footer>
       <Contact></Contact>
+      <Footer></Footer>
+      
    
       
     </div>
