@@ -5,7 +5,7 @@ import { TiSocialTwitter } from "react-icons/ti";
 import { TiSocialInstagram } from "react-icons/ti";
 import { NavLink } from "react-router-dom";
 // import TopNav from "../TopNav/TopNav";
-
+ 
 const Nav = () => {
   const active =
     "text-white mx-1 font-medium border-b-2 border-white-900 pb-1 md:text-white-900 ";

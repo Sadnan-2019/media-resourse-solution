@@ -11,6 +11,7 @@ import Achievement from './Components/Achievement/Achievement';
 import Contact from './Components/Contact/Contact';
 import { Route, Routes } from 'react-router-dom';
 import Home from './Components/Home/Home';
+import NewsMedia from './Components/NewsMedia/NewsMedia';
 // import Working from './Components/Working/Working';
 
 function App() {
