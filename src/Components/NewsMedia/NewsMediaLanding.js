@@ -1,6 +1,6 @@
 import React from 'react';
 import { FaPhoneVolume } from "react-icons/fa";
-// import camera from "../../assets/newslandingimg.jpg";
+import camera from "../../assets/newslandingimg (1) (1) (1)-min.jpg";
 import "./NewsMediaLanding.css";
 
 
@@ -65,7 +65,7 @@ const NewsMediaLanding = () => {
             data-aos-offset="300"
             data-aos-delay="5000"
             data-aos-duration="3000"
-            //   src={camera}
+              src={camera}
               alt=""
               className="rounded-full    "
              
