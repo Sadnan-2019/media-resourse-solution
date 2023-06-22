@@ -108,7 +108,7 @@ const NewsMediaLanding = () => {
               stroke="none"
               stroke-width="0"
               fill="white"
-              fill-opacity="50"
+              fill-opacity="100"
               class="transition-all duration-300 ease-in-out delay-150 path-0"
             ></path>
           </svg>
