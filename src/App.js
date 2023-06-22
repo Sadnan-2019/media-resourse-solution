@@ -6,7 +6,8 @@ import { Route, Routes } from 'react-router-dom';
 import Home from "./Components/Home/Home"
 import Footer from "./Components/Footer/Footer";
 import NewsMedia from './Components/NewsMedia/NewsMedia';
-import NewsMediaLanding from './Components/NewsMedia/NewsMediaLanding';
+import About from './Components/About/About';
+// import NewsMediaLanding from './Components/NewsMedia/NewsMediaLanding';
 import Carrer from './Components/Carrer/Carrer';
 // import Working from './Components/Working/Working';
 
@@ -23,7 +24,7 @@ function App() {
 
         <Route path="/news-media" element={<NewsMedia />}></Route>
         <Route path="/career" element={<Carrer/>}></Route>
-        {/* <Route path="/about" element={<About />}></Route> */}
+        <Route path="/about" element={<About />}></Route>
       </Routes>
       <Footer></Footer>
    
