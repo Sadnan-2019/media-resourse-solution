@@ -324,6 +324,8 @@ const News = () => {
           </section>
         </div>
       </div>
+
+      {/* ////////FIRST NEWS */}
       <div className="grid grid-col-1 md:grid-cols-1 gap-2 px-4 mx-4 items-center justify-items-center">
         <div class="container   mx-auto md:px-6">
           {/* <!-- Section: Design Block --> */}
@@ -496,6 +498,19 @@ const News = () => {
           {/* <!-- Section: Design Block --> */}
         </div>
       </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
     </div>
   );
 };
