@@ -9,6 +9,8 @@ import NewsMedia from './Components/NewsMedia/NewsMedia';
 import About from './Components/About/About';
 // import NewsMediaLanding from './Components/NewsMedia/NewsMediaLanding';
 import Carrer from './Components/Carrer/Carrer';
+// import Contact from './Components/Contact/Contact';
+import NewContact from './Components/Contact/NewContact';
 // import Working from './Components/Working/Working';
 
 function App() {
@@ -25,6 +27,7 @@ function App() {
         <Route path="/news-media" element={<NewsMedia />}></Route>
         <Route path="/career" element={<Carrer/>}></Route>
         <Route path="/about" element={<About />}></Route>
+        <Route path="/contact" element={<NewContact />}></Route>
       </Routes>
       <Footer></Footer>
    
