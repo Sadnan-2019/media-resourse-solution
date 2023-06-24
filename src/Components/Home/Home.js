@@ -7,6 +7,7 @@ import Review from "../../Components/Review/Review";
 import Working from "../../Components/Working/Working";
 import Clients from "../../Components/Clients/Clients";
 import Contact from "../../Components/Contact/Contact";
+import Achievement from '../Achievement/Achievement';
 
 
 const Home = () => {
@@ -15,6 +16,7 @@ const Home = () => {
     <Landing></Landing>
     <Service></Service>
     <Review></Review>
+    <Achievement></Achievement>
     <Working></Working>
     <Clients></Clients>
     <Contact></Contact>
