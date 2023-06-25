@@ -29,21 +29,21 @@ const Service = () => {
           // data-aos="fade-right"
           // data-aos-offset="300"
           // data-aos-easing="ease-in-sine"
-          class="  card  mask mask-hexagon   text-white    w-full max-w-sm shadow-2xl bg-gradient-to-r from-[#38235D] to-[#ab4059]  "
-          style={{ height: "400px" }}
+          class="h-96	w-11/12  card  mask mask-hexagon   text-white     max-w-sm shadow-2xl bg-gradient-to-r from-[#38235D] to-[#ab4059]  "
+           
         >
           <div className="       ">
             <figure className=" rounded-lg image-container">
               <img
                 src={video}
                 alt="Shoes"
-                className="rounded-xl p-4 "
-                style={{ height: "100px" }}
+                className="rounded-xl p-4 h-1/5 w-24 mt-3  	"
+                // style={{ height: "100px" }}
               />
             </figure>
-            <div className="card-body items-center text-center">
-              <h2 className="card-title">Video Editing</h2>
-              <p className="mt-1 text-sm text-left text-white poppins-t lg:text-justify">
+            <div className="  text-center">
+              <h2 className="font-bold text-center text-xl">Video Editing</h2>
+              <p className="mt-1 p-4 text-sm text-left text-white poppins-t lg:text-justify">
                 Our fifteen employee-team works round the clock to serve the
                 community. We are ready to answer phone calls 24/7.We are open
                 for conversation listening to attendants complaints.We can
