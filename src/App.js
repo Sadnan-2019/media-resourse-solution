@@ -11,11 +11,13 @@ import About from './Components/About/About';
 import Carrer from './Components/Carrer/Carrer';
 // import Contact from './Components/Contact/Contact';
 import NewContact from './Components/Contact/NewContact';
+import TopNav from './Components/TopNav/TopNav';
 // import Working from './Components/Working/Working';
 
 function App() {
   return (
     <div className=" ">
+      <TopNav></TopNav>
       <Nav></Nav>
        
      
