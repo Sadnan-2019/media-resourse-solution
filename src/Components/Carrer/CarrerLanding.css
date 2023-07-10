@@ -1,8 +1,8 @@
 .carrerlanding {
     background-image: linear-gradient(
         to left,
-        rgba(2, 1, 9, 0.01),
-      rgba(3, 3, 3, 0.9)
+        rgba(29, 33, 33, 0.504),
+        rgba(3, 29, 34, 0.9)
       ),
       url("../../assets/CARRERLAST.jpg");
     height: auto;
