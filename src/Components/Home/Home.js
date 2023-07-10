@@ -8,6 +8,7 @@ import Working from "../../Components/Working/Working";
 import Clients from "../../Components/Clients/Clients";
 import Contact from "../../Components/Contact/Contact";
 import Achievement from '../Achievement/Achievement';
+import WeDO from '../WeDO/WeDO';
 
 
 const Home = () => {
@@ -15,6 +16,7 @@ const Home = () => {
         <div>
     <Landing></Landing>
     <Service></Service>
+    <WeDO></WeDO>
     <Review></Review>
     <Achievement></Achievement>
     <Working></Working>
