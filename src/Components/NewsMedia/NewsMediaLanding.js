@@ -78,17 +78,7 @@ const NewsMediaLanding = () => {
           data-aos-easing="linear"
           data-aos-duration="1500"
         >
-          {/* <svg
-            className=""
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 1440 320"
-          >
-            <path
-              fill="white"
-              fill-opacity="50"
-              d="M0,128L120,160C240,192,480,256,720,272C960,288,1200,256,1320,240L1440,224L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"
-            ></path>
-          </svg> */}
+         
           <svg
             width="100%"
             height="100%"

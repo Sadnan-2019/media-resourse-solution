@@ -300,6 +300,7 @@ const Landing = () => {
           </div>
        
       </Slider>
+      
     </div>
   );
 };
