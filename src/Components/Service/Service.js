@@ -25,13 +25,13 @@ const Service = () => {
       </div>
       {/* <button class="my-button justify-items-center">Click me</button> */}
 
-      <div className="grid sm:grid-cols-1  md:grid-cols-2 lg:grid-cols-3  mx-10 gap-10  px-10 justify-items-center  py-10 ">
+      <div className="grid sm:grid-cols-1  md:grid-cols-2 lg:grid-cols-3  px-0   lg:px-12 gap-10      items-center justify-items-center  py-10 ">
         <div 
           // data-aos="fade-right"
           // data-aos-offset="300"
           // data-aos-easing="ease-in-sine"
           
-          class="image-container  h-96	w-11/12  card  mask mask-hexagon   text-white     max-w-sm shadow-2xl bg-gradient-to-r from-[#38235D] to-[#ab4059]  "
+          class="image-container h-96 w-11/12     lg:h-96 lg:w-11/12        	  card  mask mask-hexagon   text-white     max-w-sm shadow-2xl bg-gradient-to-r from-[#38235D] to-[#ab4059]  "
            
         >
           <div className="       "

@@ -92,7 +92,7 @@ const Nav = () => {
               </label>
               <ul
                 tabIndex={0}
-                className="menu menu-compact dropdown-content mt-3 p-2 shadow-xl rounded-box  bg-[#123261]  text-white w-52 "
+                className="menu menu-compact dropdown-content mt-3 p-2 shadow-xl rounded-box  bg-gradient-to-r from-[#92468E] to-[#38235D]  text-white w-52 "
               >
                 {navItem}
               </ul>

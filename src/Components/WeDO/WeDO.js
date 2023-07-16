@@ -1,18 +1,14 @@
 import React from "react";
-import "./WeDo.css"
-import wedo from "../../assets/wedo.jpeg"
+import "./WeDo.css";
+import wedo from "../../assets/wedo.jpeg";
 const WeDO = () => {
   return (
     <div>
       <div>
         <div className=" py-14 ">
           <div className="wedoback ">
-            
-
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 px-10  py-10 items-center justify-items-center">
               {/* left side */}
-
-              
 
               <div className="   ">
                 <div className="">
@@ -33,18 +29,22 @@ const WeDO = () => {
                       className="   w-full max-w-sm    py-5   "
                       data-aos="fade-right"
                       data-aos-duration="800"
-                    >
-                     
-                    </div>
+                    ></div>
                   </div>
                 </div>
               </div>
 
-
               <div>
                 <div className="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
                   <div className="card-body">
-                     <img alt="" src={wedo}/>
+                    <img
+                      data-aos="zoom-in"
+                      data-aos-offset="300"
+                      data-aos-delay="5000"
+                      data-aos-duration="3000"
+                      alt=""
+                      src={wedo}
+                    />
                   </div>
                 </div>
               </div>
