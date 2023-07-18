@@ -35,10 +35,10 @@ const Service = () => {
            
         >
           <div className="       "
-          data-aos="fade-right"
-          data-aos-offset="300"
-          data-aos-delay="5000"
-          data-aos-duration="3000"
+          // data-aos="fade-right"
+          // data-aos-offset="300"
+          // data-aos-delay="5000"
+          // data-aos-duration="3000"
           
           >
             <figure className=" rounded-lg image-container">
@@ -51,7 +51,7 @@ const Service = () => {
             </figure>
             <div className="  text-center">
               <h2 className="font-bold text-center text-xl">Video Editing</h2>
-              <p className="mt-1 p-4 text-sm text-left text-white poppins-t lg:text-justify">
+              <p className="  p-8 mt-1 lg:p-4 text-sm   text-white poppins-t text-justify">
                 Our fifteen employee-team works round the clock to serve the
                 community. We are ready to answer phone calls 24/7.We are open
                 for conversation listening to attendants complaints.We can

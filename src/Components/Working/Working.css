@@ -46,4 +46,97 @@ background-color: brown;
   .fade-in {
     animation: fade-in 1s forwards;
   }
+  .talkbubble {
+    width: 100px;
+    height: 80px;
+    background: red;
+    position: relative;
+    -moz-border-radius: 60px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+  }
+  .talkbubble:before {
+    content: "";
+    position: absolute;
+    right: 100%;
+    top: -96px;
+    width: 0;
+    height: 0;
+    border-top: 1px solid transparent;
+    border-right: 26px solid red;
+    border-bottom: 13px solid transparent;
+  }
+
+
+  .price-tag {
+    display: inline-block;
+    
+    width: auto;
+    height: 38px;
+    
+    background-color: #333;
+    -webkit-border-radius: 3px 4px 4px 3px;
+    -moz-border-radius: 3px 4px 4px 3px;
+    border-radius: 3px 4px 4px 3px;
+    
+    border-left: 1px solid #333;
   
+    /* This makes room for the triangle */
+    margin-left: 19px;
+    
+    position: relative;
+    
+    color: white;
+    line-height: 38px;
+  
+    padding: 0 10px 0 10px;
+  }
+  
+  /* Makes the triangle */
+  .price-tag:before {
+    content: "";
+    position: absolute;
+    display: block;
+    left: -19px;
+    width: 0;
+    height: 0;
+    border-top: 19px solid transparent;
+    border-bottom: 19px solid transparent;
+    border-right: 19px solid #333;
+  }
+  
+  /* Makes the circle */
+  .price-tag:after {
+    content: "";
+    background-color: white;
+    border-radius: 50%;
+    width: 4px;
+    height: 4px;
+    display: block;
+    position: absolute;
+    left: -19px;
+    top: 17px;
+  }
+  .logo:after {
+    content: "";
+    background-color: white;
+    border-radius: 50%;
+    width: 4px;
+    height: 4px;
+    display: block;
+    position: relative;
+    left: -19px;
+    top: 17px;
+  }
+
+  .logo:before {
+    content: "";
+    position: absolute;
+    /* display: block; */
+    left: -19px;
+    width: 0;
+    height: 0;
+    border-top: 19px solid transparent;
+    border-bottom: 19px solid transparent;
+    border-right: 19px solid #333;
+  }
