@@ -51,7 +51,7 @@ const Service = () => {
             </figure>
             <div className="  text-center">
               <h2 className="font-bold text-center text-xl">Video Editing</h2>
-              <p className="  p-8 mt-1 lg:p-4 text-sm   text-white poppins-t text-justify">
+              <p className="  p-8    lg:p-4 text-sm   text-white poppins-t text-justify">
                 Our fifteen employee-team works round the clock to serve the
                 community. We are ready to answer phone calls 24/7.We are open
                 for conversation listening to attendants complaints.We can
@@ -84,8 +84,8 @@ const Service = () => {
               />
             </figure>
             <div className="  text-center">
-              <h2 className="font-bold text-center text-xl">Graphices Design </h2>
-              <p className="mt-1 p-4 text-sm text-left text-white poppins-t lg:text-justify">
+              <h2 className="font-bold text-center text-xl">Graphices Design</h2>
+              <p className="  p-8    lg:p-4 text-sm   text-white poppins-t text-justify">
                 Our fifteen employee-team works round the clock to serve the
                 community. We are ready to answer phone calls 24/7.We are open
                 for conversation listening to attendants complaints.We can
@@ -118,9 +118,9 @@ const Service = () => {
                 // style={{ height: "100px" }}
               />
             </figure>
-            <div className=" text-center">
+            <div className="  text-center">
               <h2 className="font-bold text-center text-xl">Digital Marketing</h2>
-              <p className="mt-1 p-4 text-sm text-left text-white poppins-t lg:text-justify">
+              <p className="  p-8    lg:p-4 text-sm   text-white poppins-t text-justify">
                 Our fifteen employee-team works round the clock to serve the
                 community. We are ready to answer phone calls 24/7.We are open
                 for conversation listening to attendants complaints.We can
@@ -153,9 +153,9 @@ const Service = () => {
                 // style={{ height: "100px" }}
               />
             </figure>
-            <div className=" text-center">
-              <h2 className="font-bold text-center text-xl">Search Engine Optiomization</h2>
-              <p className="mt-1 p-4 text-sm text-left text-white poppins-t lg:text-justify">
+            <div className="  text-center">
+              <h2 className="font-bold text-center text-xl">Search Engine Optimization</h2>
+              <p className="  p-8    lg:p-4 text-sm   text-white poppins-t text-justify">
                 Our fifteen employee-team works round the clock to serve the
                 community. We are ready to answer phone calls 24/7.We are open
                 for conversation listening to attendants complaints.We can
@@ -188,9 +188,9 @@ const Service = () => {
                 style={{ height: "100px" }}
               />
             </figure>
-            <div className="card-body items-center text-center">
-              <h2 className="card-title">Web Development </h2>
-              <p className="mt-1 text-sm text-left text-white poppins-t lg:text-justify">
+            <div className="  text-center">
+              <h2 className="font-bold text-center text-xl">Web Application Development</h2>
+              <p className="  p-8    lg:p-4 text-sm   text-white poppins-t text-justify">
                 Our fifteen employee-team works round the clock to serve the
                 community. We are ready to answer phone calls 24/7.We are open
                 for conversation listening to attendants complaints.We can
@@ -223,9 +223,9 @@ const Service = () => {
                 style={{ height: "100px" }}
               />
             </figure>
-            <div className="card-body items-center text-center">
-              <h2 className="card-title">App Development</h2>
-              <p className="mt-1 text-sm text-left text-white poppins-t lg:text-justify">
+            <div className="  text-center">
+              <h2 className="font-bold text-center text-xl">Mobile App Development</h2>
+              <p className="  p-8    lg:p-4 text-sm   text-white poppins-t text-justify">
                 Our fifteen employee-team works round the clock to serve the
                 community. We are ready to answer phone calls 24/7.We are open
                 for conversation listening to attendants complaints.We can
@@ -258,9 +258,9 @@ const Service = () => {
                 style={{ height: "100px" }}
               />
             </figure>
-            <div className="card-body items-center text-center">
-              <h2 className="card-title">Content Writing</h2>
-              <p className="mt-1 text-sm text-left text-white poppins-t lg:text-justify">
+            <div className="  text-center">
+              <h2 className="font-bold text-center text-xl">Content Writing</h2>
+              <p className="  p-8    lg:p-4 text-sm   text-white poppins-t text-justify">
                 Our fifteen employee-team works round the clock to serve the
                 community. We are ready to answer phone calls 24/7.We are open
                 for conversation listening to attendants complaints.We can
