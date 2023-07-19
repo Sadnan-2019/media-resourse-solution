@@ -35,10 +35,10 @@ const Service = () => {
            
         >
           <div className="       "
-          // data-aos="fade-right"
-          // data-aos-offset="300"
-          // data-aos-delay="5000"
-          // data-aos-duration="3000"
+          data-aos="fade-right"
+          data-aos-offset="300"
+          data-aos-delay="5000"
+          data-aos-duration="3000"
           
           >
             <figure className=" rounded-lg image-container">
