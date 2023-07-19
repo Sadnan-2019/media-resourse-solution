@@ -27,7 +27,7 @@ const Nav = () => {
           className={({ isActive }) => (isActive ? `${active}` : `${normal}`)}
           to="/news-media"
         >
-          News & Media
+          AI
         </NavLink>
       </li>
       <li className="nav-item p-2 	">
@@ -35,7 +35,7 @@ const Nav = () => {
           className={({ isActive }) => (isActive ? `${active}` : `${normal}`)}
           to="/career"
         >
-          Career
+          Concerns
         </NavLink>
       </li>
       {/* <li className=" nav-item  p-2   	">
