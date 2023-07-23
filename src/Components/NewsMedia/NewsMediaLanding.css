@@ -1,10 +1,11 @@
 .newslanding{
-    background-image: linear-gradient(
+    background-image:
+     /* linear-gradient(
       to left,
       rgba(2, 1, 9, 0.01),
       rgba(3, 3, 3, 0.9)
-    ),
-    url("../../assets/landingnine.jpg");
+    ), */
+    url("../../assets/concerns.png");
     height: auto;
   width: 100%;
   /* background-size: contain; */
