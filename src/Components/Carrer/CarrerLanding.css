@@ -1,16 +1,17 @@
 .carrerlanding {
-    background-image: linear-gradient(
+    background-image: 
+    /* linear-gradient(
         to left,
         rgba(29, 33, 33, 0.504),
         rgba(3, 29, 34, 0.9)
-      ),
-      url("../../assets/CARRERLAST.jpg");
-    height: auto;
+      ), */
+      url("../../assets/NEWAI.jpg");
+    /* height: auto; */
     width: 100%;
     /* background-size: contain; */
     background-size: cover;
   
-    background-size: 100% 85%;
+    background-size: 100% 100%;
   
     background-repeat: no-repeat;
   }

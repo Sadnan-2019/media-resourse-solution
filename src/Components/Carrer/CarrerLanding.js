@@ -1,6 +1,6 @@
 import React from 'react';
 import "./CarrerLanding.css"
-import carrer from "../../assets/careearlanding.jpg"
+// import carrer from "../../assets/careearlanding.jpg"
 const CarrerLanding = () => {
     return (
         <div>
@@ -26,12 +26,12 @@ const CarrerLanding = () => {
           </div>
 
           <div class="  sm:max-w-xs lg:max-w-sm text-left md:ml-8 lg:order-1 order-2   lg:mt-0  ">
-            <img
+            {/* <img
               src={carrer}
               alt=""
               className=" rounded-full  h-5/6 w-5/6 "
               data-aos="fade-left"
-            />
+            /> */}
           </div>
         </div>
 
