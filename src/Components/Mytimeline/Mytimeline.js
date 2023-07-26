@@ -1,98 +1,119 @@
-import React from 'react';
-import "./Mytimeline.css"
-import chat  from "../../assets/chat.jpg"
-import chatimg  from "../../assets/chatimage.jpg"
+import React from "react";
+import "./Mytimeline.css";
+import chat from "../../assets/chat.jpg";
+import chatimg from "../../assets/chatimage.jpg";
+import mid from "../../assets/Midjourney.jpg";
 
 const Mytimeline = () => {
-    return (
-        <div>
-            <div class="min-h-screen timeline py-6 flex flex-col justify-center sm:py-12">
-  <div class="py-3 sm:max-w-xl sm:mx-auto w-full px-2 sm:px-0">
+  return (
+    <div className="py-14">
+      <div class="min-h-screen timeline py-6 flex flex-col justify-center sm:py-12">
+        <div class="py-3 sm:max-w-xl sm:mx-auto w-full px-2 sm:px-0">
+          <div class="relative text-gray-700 antialiased text-sm font-semibold">
+            {/* <!-- Vertical bar running through middle --> */}
+            <div class="hidden sm:block w-1 bg-blue-300 absolute h-full left-1/2 transform -translate-x-1/2"></div>
 
-    <div class="relative text-gray-700 antialiased text-sm font-semibold">
-
-      {/* <!-- Vertical bar running through middle --> */}
-      <div class="hidden sm:block w-1 bg-blue-300 absolute h-full left-1/2 transform -translate-x-1/2"></div>
-
-      {/* <!-- Left section, set by justify-start and sm:pr-8 --> */}
-      <div class="mt-6 sm:mt-0 sm:mb-12">
-        <div class="flex flex-col sm:flex-row items-center">
-          <div class="flex justify-start w-full mx-auto items-center">
-            <div class="w-full sm:w-1/2 sm:pr-8">
-              <div class="p-4 bg-white rounded shadow">
-                Now this is a story all about how,
-              </div>
-            </div>
-          </div>
-          <div class=" absolute left-1/2 -translate-y-4 sm:translate-y-0 transform -translate-x-1/2 flex items-center justify-center">
-            {/* <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            {/* <!-- Left section, set by justify-start and sm:pr-8 --> */}
+            <div class="mt-6 sm:mt-0 sm:mb-12">
+              <div class="flex flex-col sm:flex-row items-center">
+                <div class="flex justify-start w-full mx-auto items-center">
+                  <div class="w-full sm:w-1/2 sm:pr-8">
+                    <div class="p-4 bg-white rounded shadow">
+                      ChatGPT is a large language model-based chatbot developed
+                      by OpenAI and launched on November 30, 2022, notable for
+                      enabling users to refine and steer a conversation towards
+                      a desired length, format, style, level of detail, and
+                      language used.
+                    </div>
+                  </div>
+                </div>
+                <div class=" absolute left-1/2 -translate-y-4 sm:translate-y-0 transform -translate-x-1/2 flex items-center justify-center">
+                  {/* <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
             </svg> */}
-            <img className='rounded-full   border-white border-4 w-8 h-8' src={chat} alt='' />
-          </div>
-        </div>
-      </div>
+                  <img
+                    className="rounded-full   border-white border-4 w-8 h-8"
+                    src={chat}
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
 
-      {/* <!-- Right section, set by justify-end and sm:pl-8 --> */}
-      <div class="mt-6 sm:mt-0 sm:mb-12">
-        <div class="flex flex-col sm:flex-row items-center">
-          <div class="flex justify-end w-full mx-auto items-center">
-            <div class="w-full sm:w-1/2 sm:pl-8">
-              <div class="p-4 bg-white rounded shadow">
-                My life got flipped turned upside down,
+            {/* <!-- Right section, set by justify-end and sm:pl-8 --> */}
+            <div class="mt-6 sm:mt-0 sm:mb-12">
+              <div class="flex flex-col sm:flex-row items-center">
+                <div class="flex justify-end w-full mx-auto items-center">
+                  <div class="w-full sm:w-1/2 sm:pl-8">
+                    <div class="p-4 bg-white rounded shadow">
+                      My life got flipped turned upside down,
+                    </div>
+                  </div>
+                </div>
+                <div class="  absolute left-1/2 -translate-y-4 sm:translate-y-0 transform -translate-x-1/2 flex items-center justify-center">
+                  <img
+                    className="rounded-full   border-white border-4 w-8 h-8"
+                    src={chatimg}
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+
+            {/* <!-- Left section, set by justify-start and sm:pr-8 --> */}
+            <div class="mt-6 sm:mt-0 sm:mb-12">
+              <div class="flex flex-col sm:flex-row items-center">
+                <div class="flex justify-start w-full mx-auto items-center">
+                  <div class="w-full sm:w-1/2 sm:pr-8">
+                    <div class="p-4 bg-white rounded shadow">
+                      And I'd like to take a minute, just sit right there,
+                    </div>
+                  </div>
+                </div>
+                <div class="  absolute left-1/2 -translate-y-4 sm:translate-y-0 transform -translate-x-1/2 flex items-center justify-center">
+                  <img
+                    className="rounded-full   border-white border-4 w-8 h-8"
+                    src={mid}
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+
+            {/* <!-- Right section, set by justify-end and sm:pl-8 --> */}
+            <div class="mt-6 sm:mt-0">
+              <div class="flex flex-col sm:flex-row items-center">
+                <div class="flex justify-end w-full mx-auto items-center">
+                  <div class="w-full sm:w-1/2 sm:pl-8">
+                    <div class="p-4 bg-white rounded shadow">
+                      I'll tell you how I became the Prince of a town called Bel
+                      Air.
+                    </div>
+                  </div>
+                </div>
+                <div class="rounded-full bg-blue-500 border-white border-4 w-8 h-8 absolute left-1/2 -translate-y-4 sm:translate-y-0 transform -translate-x-1/2 flex items-center justify-center">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-5 w-5 text-white"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9"
+                    />
+                  </svg>
+                </div>
               </div>
             </div>
           </div>
-          <div class="  absolute left-1/2 -translate-y-4 sm:translate-y-0 transform -translate-x-1/2 flex items-center justify-center">
-          <img className='rounded-full   border-white border-4 w-8 h-8' src={chatimg} alt='' />
-          </div>
         </div>
       </div>
-
-      {/* <!-- Left section, set by justify-start and sm:pr-8 --> */}
-      <div class="mt-6 sm:mt-0 sm:mb-12">
-        <div class="flex flex-col sm:flex-row items-center">
-          <div class="flex justify-start w-full mx-auto items-center">
-            <div class="w-full sm:w-1/2 sm:pr-8">
-              <div class="p-4 bg-white rounded shadow">
-                And I'd like to take a minute, just sit right there,
-              </div>
-            </div>
-          </div>
-          <div class="rounded-full bg-blue-500 border-white border-4 w-8 h-8 absolute left-1/2 -translate-y-4 sm:translate-y-0 transform -translate-x-1/2 flex items-center justify-center">
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
-            </svg>
-          </div>
-        </div>
-      </div>
-
-      {/* <!-- Right section, set by justify-end and sm:pl-8 --> */}
-      <div class="mt-6 sm:mt-0">
-        <div class="flex flex-col sm:flex-row items-center">
-          <div class="flex justify-end w-full mx-auto items-center">
-            <div class="w-full sm:w-1/2 sm:pl-8">
-              <div class="p-4 bg-white rounded shadow">
-                I'll tell you how I became the Prince of a town called Bel Air.
-              </div>
-            </div>
-          </div>
-          <div class="rounded-full bg-blue-500 border-white border-4 w-8 h-8 absolute left-1/2 -translate-y-4 sm:translate-y-0 transform -translate-x-1/2 flex items-center justify-center">
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9" />
-            </svg>
-          </div>
-        </div>
-      </div>
-
-
-
     </div>
-
-  </div>
-</div>
-        </div>
-    );
+  );
 };
 
 export default Mytimeline;
