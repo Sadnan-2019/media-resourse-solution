@@ -3,6 +3,7 @@ import "./Mytimeline.css";
 import chat from "../../assets/chat.jpg";
 import chatimg from "../../assets/chatimage.jpg";
 import mid from "../../assets/Midjourney.jpg";
+import bird from "../../assets/birdAi.jpg";
 
 const Mytimeline = () => {
   return (
@@ -19,11 +20,13 @@ const Mytimeline = () => {
                 <div class="flex justify-start w-full mx-auto items-center">
                   <div class="w-full sm:w-1/2 sm:pr-8">
                     <div class="p-4 bg-white rounded shadow">
-                      ChatGPT is a large language model-based chatbot developed
-                      by OpenAI and launched on November 30, 2022, notable for
-                      enabling users to refine and steer a conversation towards
-                      a desired length, format, style, level of detail, and
-                      language used.
+                      <p className="text-1xl">
+                        ChatGPT is a large language model-based chatbot
+                        developed by OpenAI and launched on November 30, 2022,
+                        notable for enabling users to refine and steer a
+                        conversation towards a desired length, format, style,
+                        level of detail, and language used.
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -46,7 +49,11 @@ const Mytimeline = () => {
                 <div class="flex justify-end w-full mx-auto items-center">
                   <div class="w-full sm:w-1/2 sm:pl-8">
                     <div class="p-4 bg-white rounded shadow">
-                      My life got flipped turned upside down,
+                      ChatGPT Image Generator is an innovative AI system that
+                      combines the power of Chat GPT, Text to Speech and AI
+                      Image Generator in one. With its natural language
+                      processing with image generation capabilities, freelancers
+                      can generate contents 10X faster & save hours of work.
                     </div>
                   </div>
                 </div>
@@ -66,7 +73,11 @@ const Mytimeline = () => {
                 <div class="flex justify-start w-full mx-auto items-center">
                   <div class="w-full sm:w-1/2 sm:pr-8">
                     <div class="p-4 bg-white rounded shadow">
-                      And I'd like to take a minute, just sit right there,
+                      Midjourney is an independent research lab exploring new
+                      mediums of thought and expanding the imaginative powers of
+                      the human species. We are a small self-funded team focused
+                      on design, human infrastructure, and AI. We have 11
+                      full-time staff and an incredible set of advisors.
                     </div>
                   </div>
                 </div>
@@ -86,26 +97,20 @@ const Mytimeline = () => {
                 <div class="flex justify-end w-full mx-auto items-center">
                   <div class="w-full sm:w-1/2 sm:pl-8">
                     <div class="p-4 bg-white rounded shadow">
-                      I'll tell you how I became the Prince of a town called Bel
-                      Air.
+                      Bird AI’s AI-based video conferencing brings inclusivity
+                      and enables seamless two-way communication. Embrace hybrid
+                      meetings to connect team members across distances,
+                      fostering an environment of equality and fruitful
+                      collaboration for all the participants.
                     </div>
                   </div>
                 </div>
-                <div class="rounded-full bg-blue-500 border-white border-4 w-8 h-8 absolute left-1/2 -translate-y-4 sm:translate-y-0 transform -translate-x-1/2 flex items-center justify-center">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    class="h-5 w-5 text-white"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                  >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9"
-                    />
-                  </svg>
+                <div class="  absolute left-1/2 -translate-y-4 sm:translate-y-0 transform -translate-x-1/2 flex items-center justify-center">
+                  <img
+                    className="rounded-full   border-white border-4 w-8 h-8"
+                    src={bird}
+                    alt=""
+                  />
                 </div>
               </div>
             </div>
