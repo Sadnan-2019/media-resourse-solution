@@ -17,9 +17,9 @@ const Mytimeline = () => {
             {/* <!-- Left section, set by justify-start and sm:pr-8 --> */}
             <div class="mt-6 sm:mt-0 sm:mb-12">
               <div class="flex flex-col sm:flex-row items-center">
-                <div class="flex justify-start w-full mx-auto items-center">
-                  <div class="w-full sm:w-1/2 sm:pr-8">
-                    <div class="p-4 bg-white rounded shadow">
+                <div class="flex justify-start   mx-auto items-center ">
+                  <div class="sm:w-1/2 sm:pr-8 bg-white   ">
+                    <div class="p-4   rounded shadow  w-full ">
                       <p className="text-1xl">
                         ChatGPT is a large language model-based chatbot
                         developed by OpenAI and launched on November 30, 2022,
@@ -27,6 +27,8 @@ const Mytimeline = () => {
                         conversation towards a desired length, format, style,
                         level of detail, and language used.
                       </p>
+                       
+
                     </div>
                   </div>
                 </div>
