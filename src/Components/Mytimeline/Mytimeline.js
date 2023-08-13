@@ -18,7 +18,13 @@ const Mytimeline = () => {
             <div class="mt-6 sm:mt-0 sm:mb-12">
               <div class="flex flex-col sm:flex-row items-center">
                 <div class="flex justify-start   mx-auto items-center ">
-                  <div class="sm:w-1/2 sm:pr-8 bg-white   ">
+                  <div class="sm:w-1/2 sm:pr-8 bg-white   "
+                  data-aos="fade-right"
+                  data-aos-offset="300"
+                  data-aos-delay="5000"
+                  data-aos-duration="3000"
+                  
+                  >
                     <div class="p-4   rounded shadow  w-full ">
                       <p className="text-1xl">
                         ChatGPT is a large language model-based chatbot
@@ -49,7 +55,7 @@ const Mytimeline = () => {
             <div class="mt-6 sm:mt-0 sm:mb-12">
               <div class="flex flex-col sm:flex-row items-center">
                 <div class="flex justify-end w-full mx-auto items-center">
-                  <div class="w-full sm:w-1/2 sm:pl-8">
+                  <div class="w-full sm:w-1/2 ">
                     <div class="p-4 bg-white rounded shadow">
                       ChatGPT Image Generator is an innovative AI system that
                       combines the power of Chat GPT, Text to Speech and AI
@@ -73,7 +79,7 @@ const Mytimeline = () => {
             <div class="mt-6 sm:mt-0 sm:mb-12">
               <div class="flex flex-col sm:flex-row items-center">
                 <div class="flex justify-start w-full mx-auto items-center">
-                  <div class="w-full sm:w-1/2 sm:pr-8">
+                  <div class="w-full sm:w-1/2 ">
                     <div class="p-4 bg-white rounded shadow">
                       Midjourney is an independent research lab exploring new
                       mediums of thought and expanding the imaginative powers of
@@ -97,7 +103,7 @@ const Mytimeline = () => {
             <div class="mt-6 sm:mt-0">
               <div class="flex flex-col sm:flex-row items-center">
                 <div class="flex justify-end w-full mx-auto items-center">
-                  <div class="w-full sm:w-1/2 sm:pl-8">
+                  <div class="w-full sm:w-1/2 ">
                     <div class="p-4 bg-white rounded shadow">
                       Bird AI’s AI-based video conferencing brings inclusivity
                       and enables seamless two-way communication. Embrace hybrid

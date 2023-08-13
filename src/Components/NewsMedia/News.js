@@ -13,6 +13,7 @@ import conserns1 from "../../assets/healthcare.png";
 import conserns2 from "../../assets/physical-therapy.png";
 import conserns3 from "../../assets/makeover.png";
 import hcah2 from "../../assets/hcah.jpg";
+import Leap2 from "../../assets/LEAP2.jpeg";
 
 const News = () => {
   return (
@@ -46,12 +47,12 @@ const News = () => {
                   <img src={conserns1} alt="" className="w-6 text-black" />
                   Health & Medical
                 </div>
-                <p class="mb-6 text-neutral-500 dark:text-neutral-300">
+                {/* <p class="mb-6 text-neutral-500 dark:text-neutral-300">
                   <small>
                     Published <u>13.01.2022</u> by
                     <a href="#!">Anna Maria Doe</a>
                   </small>
-                </p>
+                </p> */}
                 <p class="text-neutral-500 dark:text-neutral-300">
                 Pioneer of delivering professional and quality health care at home in Bangladesh.
 
@@ -79,16 +80,16 @@ const News = () => {
                   <img src={conserns2} alt="" className="w-6 text-black" />
                   Physiotherapy Center
                 </div>
-                <p class="mb-6 text-neutral-500 dark:text-neutral-300">
+                {/* <p class="mb-6 text-neutral-500 dark:text-neutral-300">
                   <small>
                     Published <u>12.01.2022</u> by
-                    <a href="#!">Halley Frank</a>
+                    <a href="#!"></a>
+
                   </small>
-                </p>
+                </p> */}
                 <p class="text-neutral-500 dark:text-neutral-300">
-                  Suspendisse in volutpat massa. Nulla facilisi. Sed aliquet
-                  diam orci, nec ornare metus semper sed. Integer volutpat
-                  ornare erat sit amet rutrum.
+                LEAP - a well equipped center in Gulshan for physiotherapy, rehabilitation and sports injuries.
+
                 </p>
               </div>
             </div>
@@ -414,7 +415,8 @@ const News = () => {
                 data-te-ripple-color="light"
               >
                 <img
-                  src="https://mdbcdn.b-cdn.net/img/new/standard/nature/044.jpg"
+                alt=""
+                  src={Leap2}
                   class="w-full align-middle transition duration-300 ease-linear"
                 />
                 <a href="#!">
@@ -422,7 +424,7 @@ const News = () => {
                     <div class="flex h-full items-end justify-start">
                       <div class="m-6 text-white">
                         <h5 class="mb-3 text-lg font-bold">
-                          Adventure in the desert
+                          Life Enrichment Activity Program
                         </h5>
                         <p>
                           <small>
