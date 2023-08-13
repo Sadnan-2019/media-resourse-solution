@@ -10,12 +10,12 @@ const WeDO = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 px-10  py-10 items-center justify-items-center">
               <div
                 class="min-h-screen    "
-                data-aos="fade-right"
-                data-aos-offset="300"
-                data-aos-delay="5000"
-                data-aos-duration="3000"
+                // data-aos="fade-right"
+                // data-aos-offset="300"
+                // data-aos-delay="5000"
+                // data-aos-duration="3000"
               >
-                <div class="relative w-96 p-8 border border-indigo-500 rounded-lg ">
+                <div class="relative  p-8 border border-indigo-500 rounded-lg ">
                   <div class="  text-sm">
                     {/* <p class="mb-6">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p> */}
                     <h1 className="  bg-clip-text text-transparent bg-gradient-to-r from-purple-200 to-white text-3xl text-center font-bold ">
@@ -60,10 +60,10 @@ const WeDO = () => {
               <div>
                 <div className="card flex-shrink-0 w-full max-w-sm shadow-2xl ">
                   <div className="card-body " 
-                  data-aos="fade-left"
-                  data-aos-offset="300"
-                  data-aos-delay="5000"
-                  data-aos-duration="3000"
+                  // data-aos="fade-left"
+                  // data-aos-offset="300"
+                  // data-aos-delay="5000"
+                  // data-aos-duration="3000"
                   
                   >
                     {/* <img

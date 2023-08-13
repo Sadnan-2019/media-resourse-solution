@@ -232,8 +232,8 @@ const Service = () => {
             // data-aos="fade-up"
             // data-aos-offset="300"
             // data-aos-easing="ease-in-sine"
-            class="  card  mask mask-hexagon   text-white    w-full max-w-sm shadow-2xl bg-gradient-to-r from-[#38235D] to-[#ab4059]  "
-            style={{ height: "400px" }}
+            class="  card    h-96	w-11/12  mask mask-hexagon   text-white     max-w-sm shadow-2xl bg-gradient-to-r from-[#38235D] to-[#ab4059]  "
+            // style={{ height: "400px" }}
           >
             <div
               className="       "
@@ -270,8 +270,8 @@ const Service = () => {
             // data-aos="fade-left"
             // data-aos-offset="300"
             // data-aos-easing="ease-in-sine"
-            class="  card  mask mask-hexagon   text-white    w-full max-w-sm shadow-2xl bg-gradient-to-r from-[#38235D] to-[#ab4059]  "
-            style={{ height: "400px" }}
+            class="  card    h-96	w-11/12  mask mask-hexagon   text-white     max-w-sm shadow-2xl bg-gradient-to-r from-[#38235D] to-[#ab4059]  "
+            // style={{ height: "400px" }}
           >
             <div
               className="       "
@@ -308,7 +308,7 @@ const Service = () => {
             // data-aos="fade-left"
             // data-aos-offset="300"
             // data-aos-easing="ease-in-sine"
-            class="  card  mask mask-hexagon   text-white    w-full max-w-sm shadow-2xl bg-gradient-to-r from-[#38235D] to-[#ab4059]  "
+            class="  card    h-96	w-11/12  mask mask-hexagon   text-white      max-w-sm shadow-2xl bg-gradient-to-r from-[#38235D] to-[#ab4059]  "
             style={{ height: "400px" }}
           >
             <div
