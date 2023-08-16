@@ -7,6 +7,7 @@ import tmcc from "../../assets/mrglogo (4).png";
 import tcc from "../../assets/mrglogo (3).png";
 import tgr from "../../assets/mrglogo (5).png";
 import innrah from "../../assets/inaarah.jpeg";
+import tmc from "../../assets/tmc.jpg";
 
 // import rose from "../../assets/makeover.png"
 import conserns1 from "../../assets/healthcare.png";
@@ -54,8 +55,8 @@ const News = () => {
                   </small>
                 </p> */}
                 <p class="text-neutral-500 dark:text-neutral-300">
-                Pioneer of delivering professional and quality health care at home in Bangladesh.
-
+                  Pioneer of delivering professional and quality health care at
+                  home in Bangladesh.
                 </p>
               </div>
             </div>
@@ -67,7 +68,7 @@ const News = () => {
                   data-te-ripple-init
                   data-te-ripple-color="light"
                 >
-                  <img src={leap} class="w-full" alt="Louvre" />
+                  <img src={leap} class="w-18" alt="Louvre" />
                   <a href="#!">
                     <div class="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100 bg-[hsla(0,0%,98.4%,.15)]"></div>
                   </a>
@@ -88,8 +89,8 @@ const News = () => {
                   </small>
                 </p> */}
                 <p class="text-neutral-500 dark:text-neutral-300">
-                LEAP - a well equipped center in Gulshan for physiotherapy, rehabilitation and sports injuries.
-
+                  LEAP - a well equipped center in Gulshan for physiotherapy,
+                  rehabilitation and sports injuries.
                 </p>
               </div>
             </div>
@@ -116,16 +117,10 @@ const News = () => {
                   <img src={conserns3} alt="" className="w-6 text-black" />
                   Makeover
                 </div>
-                <p class="mb-6 text-neutral-500 dark:text-neutral-300">
-                  <small>
-                    Published <u>10.01.2022</u> by
-                    <a href="#!">Joe Svan</a>
-                  </small>
-                </p>
+                 
                 <p class="text-neutral-500 dark:text-neutral-300">
-                  Curabitur tristique, mi a mollis sagittis, metus felis mattis
-                  arcu, non vehicula nisl dui quis diam. Mauris ut risus eget
-                  massa volutpat feugiat. Donec.
+                  Everyone wants to look good, especially when it is the time to
+                  party. 
                 </p>
               </div>
             </div>
@@ -174,11 +169,11 @@ const News = () => {
             <div class="mb-6 flex flex-wrap">
               <div class="mb-6 ml-auto w-full shrink-0 grow-0 basis-auto px-3 md:mb-0 md:w-3/12">
                 <div
-                  class="relative mb-6 overflow-hidden rounded-lg bg-cover bg-no-repeat shadow-lg dark:shadow-black/20"
+                  class="relative mb-6 overflow-hidden rounded-lg   shadow-lg dark:shadow-black/20"
                   data-te-ripple-init
                   data-te-ripple-color="light"
                 >
-                  <img src={mrg} class="w-full" alt="Louvre" />
+                  <img src={mrg} class="w-20" alt="Louvre" />
                   <a href="#!">
                     <div class="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100 bg-[hsla(0,0%,98.4%,.15)]"></div>
                   </a>
@@ -204,16 +199,16 @@ const News = () => {
                   </svg>
                   Group of Company
                 </div>
-                <p class="mb-6 text-neutral-500 dark:text-neutral-300">
+                {/* <p class="mb-6 text-neutral-500 dark:text-neutral-300">
                   <small>
                     Published <u>13.01.2022</u> by
                     <a href="#!">Anna Maria Doe</a>
                   </small>
-                </p>
-                <p class="text-neutral-500 dark:text-neutral-300">
-                  Ut pretium ultricies dignissim. Sed sit amet mi eget urna
-                  placerat vulputate. Ut vulputate est non quam dignissim
-                  elementum. Donec a ullamcorper diam.
+                </p> */}
+               <p class="text-neutral-500 dark:text-neutral-300">
+                  Curabitur tristique, mi a mollis sagittis, metus felis mattis
+                  arcu, non vehicula nisl dui quis diam. Mauris ut risus eget
+                  massa volutpat feugiat. Donec.
                 </p>
               </div>
             </div>
@@ -225,7 +220,7 @@ const News = () => {
                   data-te-ripple-init
                   data-te-ripple-color="light"
                 >
-                  <img src={tmcc} class="w-full" alt="Louvre" />
+                  <img src={tmcc} class="w-18" alt="Louvre" />
                   <a href="#!">
                     <div class="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100 bg-[hsla(0,0%,98.4%,.15)]"></div>
                   </a>
@@ -253,16 +248,15 @@ const News = () => {
                   </svg>
                   Health & Medical
                 </div>
-                <p class="mb-6 text-neutral-500 dark:text-neutral-300">
+                {/* <p class="mb-6 text-neutral-500 dark:text-neutral-300">
                   <small>
                     Published <u>12.01.2022</u> by
                     <a href="#!">Halley Frank</a>
                   </small>
-                </p>
+                </p> */}
                 <p class="text-neutral-500 dark:text-neutral-300">
-                  Suspendisse in volutpat massa. Nulla facilisi. Sed aliquet
-                  diam orci, nec ornare metus semper sed. Integer volutpat
-                  ornare erat sit amet rutrum.
+                  A premier diagnostic & hospital in Trishal, Mymensingh serving
+                  and caring for the people.
                 </p>
               </div>
             </div>
@@ -274,7 +268,7 @@ const News = () => {
                   data-te-ripple-init
                   data-te-ripple-color="light"
                 >
-                  <img src={tcc} class="w-full" alt="Louvre" />
+                  <img src={tcc} class="w-18" alt="Louvre" />
                   <a href="#!">
                     <div class="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100 bg-[hsla(0,0%,98.4%,.15)]"></div>
                   </a>
@@ -302,12 +296,12 @@ const News = () => {
                   </svg>
                   Convention Center
                 </div>
-                <p class="mb-6 text-neutral-500 dark:text-neutral-300">
+                {/* <p class="mb-6 text-neutral-500 dark:text-neutral-300">
                   <small>
                     Published <u>10.01.2022</u> by
                     <a href="#!">Joe Svan</a>
                   </small>
-                </p>
+                </p> */}
                 <p class="text-neutral-500 dark:text-neutral-300">
                   Curabitur tristique, mi a mollis sagittis, metus felis mattis
                   arcu, non vehicula nisl dui quis diam. Mauris ut risus eget
@@ -387,7 +381,9 @@ const News = () => {
                   <div class="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-[hsla(0,0%,0%,0.4)] bg-fixed">
                     <div class="flex h-full items-end justify-start">
                       <div class="m-6 text-white">
-                        <h5 class="mb-3 text-lg font-bold">HealthCare At Home</h5>
+                        <h5 class="mb-3 text-lg font-bold">
+                          HealthCare At Home
+                        </h5>
                         <p>
                           <small>
                             The services are affordable, dedicated, and
@@ -415,7 +411,7 @@ const News = () => {
                 data-te-ripple-color="light"
               >
                 <img
-                alt=""
+                  alt=""
                   src={Leap2}
                   class="w-full align-middle transition duration-300 ease-linear"
                 />
@@ -444,17 +440,20 @@ const News = () => {
                 data-te-ripple-color="light"
               >
                 <img
-                  src="https://mdbcdn.b-cdn.net/img/new/standard/nature/045.jpg"
+                  alt=""
+                  src={tmc}
                   class="w-full align-middle transition duration-300 ease-linear"
                 />
                 <a href="#!">
                   <div class="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-[hsla(0,0%,0%,0.4)] bg-fixed">
                     <div class="flex h-full items-end justify-start">
                       <div class="m-6 text-white">
-                        <h5 class="mb-3 text-lg font-bold">Lonely mountain</h5>
+                        <h5 class="mb-3 text-lg font-bold">
+                          Life Enrichment Activity Program
+                        </h5>
                         <p>
                           <small>
-                            Published <u>10.01.2022</u> by Bilbo baggins
+                            Published <u>12.01.2022</u> by Mark Equel
                           </small>
                         </p>
                       </div>
