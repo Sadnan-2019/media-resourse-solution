@@ -136,6 +136,84 @@ const Service = () => {
             </div>
           </div>
 
+          <div
+            // data-aos="fade-left"
+            // data-aos-offset="300"
+            // data-aos-easing="ease-in-sine"
+            class="  card    h-96	w-11/12  mask mask-hexagon   text-white      max-w-sm shadow-2xl bg-gradient-to-r from-[#38235D] to-[#ab4059]  "
+            style={{ height: "400px" }}
+          >
+            <div
+              className="       "
+              data-aos="fade-right"
+              data-aos-offset="300"
+              data-aos-delay="5000"
+              data-aos-duration="3000"
+            >
+              <figure className=" rounded-lg image-container">
+                <img
+                  src={content}
+                  alt="Shoes"
+                  className="rounded-xl p-4"
+                  style={{ height: "100px" }}
+                />
+              </figure>
+              <div className="  text-center">
+                <h2 className="font-bold text-center text-xl">
+                  Content Writing
+                </h2>
+                <p className="  p-8    lg:p-4 text-sm   text-white poppins-t text-justify">
+                  Our fifteen employee-team works round the clock to serve the
+                  community. We are ready to answer phone calls 24/7.We are open
+                  for conversation listening to attendants complaints.We can
+                  provide home service with caregiver even at mid night.
+                </p>
+                {/* <div className="card-actions">
+                <button className="btn btn-primary">Buy Now</button>
+              </div> */}
+              </div>
+            </div>
+          </div>
+
+
+          <div
+            // data-aos="fade-left"
+            // data-aos-offset="300"
+            // data-aos-easing="ease-in-sine"
+            class="  card h-96	w-11/12   mask mask-hexagon   text-white     max-w-sm shadow-2xl bg-gradient-to-r from-[#38235D] to-[#ab4059]  "
+          >
+            <div
+              className="       "
+              data-aos="fade-left"
+              data-aos-offset="300"
+              data-aos-delay="5000"
+              data-aos-duration="3000"
+            >
+              <figure className=" rounded-lg image-container">
+                <img
+                  src={digitalmarketing}
+                  alt="Shoes"
+                  className="rounded-xl p-4 h-1/5 w-24 mt-3"
+                  // style={{ height: "100px" }}
+                />
+              </figure>
+              <div className="  text-center">
+                <h2 className="font-bold text-center text-xl">
+                  Digital Marketing
+                </h2>
+                <p className="  p-8    lg:p-4 text-sm   text-white poppins-t text-justify">
+                  Our fifteen employee-team works round the clock to serve the
+                  community. We are ready to answer phone calls 24/7.We are open
+                  for conversation listening to attendants complaints.We can
+                  provide home service with caregiver even at mid night.
+                </p>
+                {/* <div className="card-actions">
+                <button className="btn btn-primary">Buy Now</button>
+              </div> */}
+              </div>
+            </div>
+          </div>
+
           <div class="image-container h-96 w-11/12     lg:h-96 lg:w-11/12        	  card  mask mask-hexagon   text-white     max-w-sm shadow-2xl bg-gradient-to-r from-[#38235D] to-[#ab4059]  ">
             <div
               className="       "
@@ -203,43 +281,7 @@ const Service = () => {
               </div>
             </div>
           </div>
-          <div
-            // data-aos="fade-left"
-            // data-aos-offset="300"
-            // data-aos-easing="ease-in-sine"
-            class="  card h-96	w-11/12   mask mask-hexagon   text-white     max-w-sm shadow-2xl bg-gradient-to-r from-[#38235D] to-[#ab4059]  "
-          >
-            <div
-              className="       "
-              data-aos="fade-left"
-              data-aos-offset="300"
-              data-aos-delay="5000"
-              data-aos-duration="3000"
-            >
-              <figure className=" rounded-lg image-container">
-                <img
-                  src={digitalmarketing}
-                  alt="Shoes"
-                  className="rounded-xl p-4 h-1/5 w-24 mt-3"
-                  // style={{ height: "100px" }}
-                />
-              </figure>
-              <div className="  text-center">
-                <h2 className="font-bold text-center text-xl">
-                  Digital Marketing
-                </h2>
-                <p className="  p-8    lg:p-4 text-sm   text-white poppins-t text-justify">
-                  Our fifteen employee-team works round the clock to serve the
-                  community. We are ready to answer phone calls 24/7.We are open
-                  for conversation listening to attendants complaints.We can
-                  provide home service with caregiver even at mid night.
-                </p>
-                {/* <div className="card-actions">
-                <button className="btn btn-primary">Buy Now</button>
-              </div> */}
-              </div>
-            </div>
-          </div>
+        
 
           <div
             // data-aos="fade-up"
@@ -317,44 +359,7 @@ const Service = () => {
               </div>
             </div>
           </div>
-          <div
-            // data-aos="fade-left"
-            // data-aos-offset="300"
-            // data-aos-easing="ease-in-sine"
-            class="  card    h-96	w-11/12  mask mask-hexagon   text-white      max-w-sm shadow-2xl bg-gradient-to-r from-[#38235D] to-[#ab4059]  "
-            style={{ height: "400px" }}
-          >
-            <div
-              className="       "
-              data-aos="fade-right"
-              data-aos-offset="300"
-              data-aos-delay="5000"
-              data-aos-duration="3000"
-            >
-              <figure className=" rounded-lg image-container">
-                <img
-                  src={content}
-                  alt="Shoes"
-                  className="rounded-xl p-4"
-                  style={{ height: "100px" }}
-                />
-              </figure>
-              <div className="  text-center">
-                <h2 className="font-bold text-center text-xl">
-                  Content Writing
-                </h2>
-                <p className="  p-8    lg:p-4 text-sm   text-white poppins-t text-justify">
-                  Our fifteen employee-team works round the clock to serve the
-                  community. We are ready to answer phone calls 24/7.We are open
-                  for conversation listening to attendants complaints.We can
-                  provide home service with caregiver even at mid night.
-                </p>
-                {/* <div className="card-actions">
-                <button className="btn btn-primary">Buy Now</button>
-              </div> */}
-              </div>
-            </div>
-          </div>
+         
         </div>
 
         <div
