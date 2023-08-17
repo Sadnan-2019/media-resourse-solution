@@ -2,7 +2,7 @@ import React from "react";
 import video from "../../assets/VIdeoEditone.png";
 import graphices from "../../assets/graphic-design (1).png";
 import digitalmarketing from "../../assets/social-media (1).png";
-import SEO2 from "../../assets/seo (1).png";
+import research from "../../assets/data&research.png";
 import web from "../../assets/webdevelopment.png";
 import mobile from "../../assets/mobile-app.png";
 import content from "../../assets/content.png";
@@ -43,12 +43,15 @@ const Service = () => {
                 />
               </figure>
               <div className="  text-center">
-                <h2 className="font-bold text-center text-xl">Online Broadcasting</h2>
+                <h2 className="font-bold text-center text-xl">
+                  Media Broadcasting
+                </h2>
                 <p className="  p-8    lg:p-4 text-sm   text-white poppins-t text-justify">
-                  Our fifteen employee-team works round the clock to serve the
-                  community. We are ready to answer phone calls 24/7.We are open
-                  for conversation listening to attendants complaints.We can
-                  provide home service with caregiver even at mid night.
+                  This platform will enable individuals with specialized
+                  expertise to provide insights to the upcoming generation and
+                  interested individuals on building and constructing a better
+                  and more modern business, law and order, open mindset, and
+                  eventually our country Bangladesh.
                 </p>
                 {/* <div className="card-actions">
                 <button className="btn btn-primary">Buy Now</button>
@@ -73,12 +76,15 @@ const Service = () => {
                 />
               </figure>
               <div className="  text-center">
-                <h2 className="font-bold text-center text-xl">Online Campaign</h2>
+                <h2 className="font-bold text-center text-xl">
+                  Online Campaign & Events{" "}
+                </h2>
                 <p className="  p-8    lg:p-4 text-sm   text-white poppins-t text-justify">
-                  Our fifteen employee-team works round the clock to serve the
-                  community. We are ready to answer phone calls 24/7.We are open
-                  for conversation listening to attendants complaints.We can
-                  provide home service with caregiver even at mid night.
+                  Event marketing is planning, organizing, and executing an
+                  event for the purpose of promoting a brand, product, or
+                  service. Events can take place in-person or online, and
+                  companies can either host an event, attend as an exhibitor, or
+                  participate as a sponsor.
                 </p>
                 {/* <div className="card-actions">
                 <button className="btn btn-primary">Buy Now</button>
@@ -86,6 +92,50 @@ const Service = () => {
               </div>
             </div>
           </div>
+       
+
+          <div
+            // data-aos="fade-right"
+            // data-aos-offset="300"
+            // data-aos-easing="ease-in-sine"
+            class="  card    h-96	w-11/12  mask mask-hexagon   text-white     max-w-sm shadow-2xl bg-gradient-to-r from-[#38235D] to-[#ab4059]  "
+            // style={{ height: "400px" }}
+          >
+            <div
+              className="       "
+              data-aos="fade-right"
+              data-aos-offset="300"
+              data-aos-delay="5000"
+              data-aos-duration="3000"
+            >
+              <figure className=" rounded-lg image-container">
+                <img
+                  src={research}
+                  alt="Shoes"
+                  className="rounded-xl p-4 h-1/5 w-24 mt-3 "
+                  // style={{ height: "100px" }}
+                />
+              </figure>
+              <div className="  text-center">
+                <h2 className="font-bold text-center text-xl">
+                  Research,Data and Insight Solutions
+                </h2>
+                <p className="  p-8    lg:p-4 text-sm   text-white poppins-t text-justify">
+                  Also a research service platform encouraging and understanding
+                  different perspectives of world affairs and international
+                  policies that causes both positive and negative impacts on
+                  Bangladesh. This will provide potential consumers with better
+                  insights and knowledge to trade internationally and develop
+                  respective businesses and most importantly the country too new
+                  heights.
+                </p>
+                {/* <div className="card-actions">
+                <button className="btn btn-primary">Buy Now</button>
+              </div> */}
+              </div>
+            </div>
+          </div>
+
           <div class="image-container h-96 w-11/12     lg:h-96 lg:w-11/12        	  card  mask mask-hexagon   text-white     max-w-sm shadow-2xl bg-gradient-to-r from-[#38235D] to-[#ab4059]  ">
             <div
               className="       "
@@ -190,44 +240,7 @@ const Service = () => {
               </div>
             </div>
           </div>
-          <div
-            // data-aos="fade-right"
-            // data-aos-offset="300"
-            // data-aos-easing="ease-in-sine"
-            class="  card    h-96	w-11/12  mask mask-hexagon   text-white     max-w-sm shadow-2xl bg-gradient-to-r from-[#38235D] to-[#ab4059]  "
-            // style={{ height: "400px" }}
-          >
-            <div
-              className="       "
-              data-aos="fade-right"
-              data-aos-offset="300"
-              data-aos-delay="5000"
-              data-aos-duration="3000"
-            >
-              <figure className=" rounded-lg image-container">
-                <img
-                  src={SEO2}
-                  alt="Shoes"
-                  className="rounded-xl p-4 h-1/5 w-24 mt-3 "
-                  // style={{ height: "100px" }}
-                />
-              </figure>
-              <div className="  text-center">
-                <h2 className="font-bold text-center text-xl">
-                  Search Engine Optimization
-                </h2>
-                <p className="  p-8    lg:p-4 text-sm   text-white poppins-t text-justify">
-                  Our fifteen employee-team works round the clock to serve the
-                  community. We are ready to answer phone calls 24/7.We are open
-                  for conversation listening to attendants complaints.We can
-                  provide home service with caregiver even at mid night.
-                </p>
-                {/* <div className="card-actions">
-                <button className="btn btn-primary">Buy Now</button>
-              </div> */}
-              </div>
-            </div>
-          </div>
+
           <div
             // data-aos="fade-up"
             // data-aos-offset="300"

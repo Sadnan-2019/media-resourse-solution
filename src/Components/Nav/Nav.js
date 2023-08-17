@@ -8,7 +8,9 @@ import { NavLink } from "react-router-dom";
  
 const Nav = () => {
   const active =
-    "text-white mx-1 font-medium border-b-2 border-white-900 pb-1 md:text-white-900 ";
+    "text-white mx-1 font-medium border-b-2 border-white-900 pb-1  bg-white   transition bg-yellow-500 bg-opacity-20 hover:bg-opacity-40 active:bg-opacity-60 shadow-md rounded-md px-2    "
+    
+    ;
   const normal =
     "  mx-1 text-white-600 font-medium font-bold focus:text-white p-0 lg:text-white   ";
   const navItem = (
@@ -32,7 +34,7 @@ const Nav = () => {
       </li>
       <li className="nav-item p-2 	">
         <NavLink
-          className={({ isActive }) => (isActive ? `${active}` : `${normal}`)}
+          className=           {({ isActive }) => (isActive ? `${active}` : `${normal} `)}
           to="/career"
         >
            AI
