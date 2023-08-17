@@ -92,7 +92,6 @@ const Service = () => {
               </div>
             </div>
           </div>
-       
 
           <div
             // data-aos="fade-right"
@@ -163,10 +162,9 @@ const Service = () => {
                   Content Writing
                 </h2>
                 <p className="  p-8    lg:p-4 text-sm   text-white poppins-t text-justify">
-                  Our fifteen employee-team works round the clock to serve the
-                  community. We are ready to answer phone calls 24/7.We are open
-                  for conversation listening to attendants complaints.We can
-                  provide home service with caregiver even at mid night.
+                  Content writing is the process of planning, writing, and
+                  editing web content, typically for digital marketing purposes
+                  with the aim of solving a problem for a specific audience.
                 </p>
                 {/* <div className="card-actions">
                 <button className="btn btn-primary">Buy Now</button>
@@ -174,7 +172,6 @@ const Service = () => {
               </div>
             </div>
           </div>
-
 
           <div
             // data-aos="fade-left"
@@ -281,7 +278,6 @@ const Service = () => {
               </div>
             </div>
           </div>
-        
 
           <div
             // data-aos="fade-up"
@@ -359,7 +355,6 @@ const Service = () => {
               </div>
             </div>
           </div>
-         
         </div>
 
         <div
