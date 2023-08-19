@@ -21,9 +21,9 @@ const TopNav = () => {
             </div>
             <div>
               <p className="text-[10px] lg:text-xs   	">
-                01619848555  
+              01643-390832 
               </p>
-              <p className="text-[10px] lg:text-xs  	 	">01619848555  </p>
+              <p className="text-[10px] lg:text-xs  	 	">01643-390832  </p>
             </div>
           </div>
           <div
@@ -37,7 +37,7 @@ const TopNav = () => {
               <p className="text-[10px] lg:text-xs     	">
                 Email us
               </p>
-              <p className="text-[10px] lg:text-xs	 	">info@mrs.com.bd</p>
+              <p className="text-[10px] lg:text-xs	 	">info@mrs.mrg.com.bd</p>
             </div>
           </div>
           {/* <div

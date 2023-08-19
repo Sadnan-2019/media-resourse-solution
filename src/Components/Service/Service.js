@@ -199,10 +199,11 @@ const Service = () => {
                   Digital Marketing
                 </h2>
                 <p className="  p-8    lg:p-4 text-sm   text-white poppins-t text-justify">
-                  Our fifteen employee-team works round the clock to serve the
-                  community. We are ready to answer phone calls 24/7.We are open
-                  for conversation listening to attendants complaints.We can
-                  provide home service with caregiver even at mid night.
+                  In practice, digital marketing typically refers to marketing
+                  campaigns that appear on a computer, phone, tablet, or other
+                  device. It can take many forms, including online video,
+                  display ads, search engine marketing, paid social ads and
+                  social media posts.
                 </p>
                 {/* <div className="card-actions">
                 <button className="btn btn-primary">Buy Now</button>
@@ -230,10 +231,10 @@ const Service = () => {
               <div className="  text-center">
                 <h2 className="font-bold text-center text-xl">Video Editing</h2>
                 <p className="  p-8    lg:p-4 text-sm   text-white poppins-t text-justify">
-                  Our fifteen employee-team works round the clock to serve the
-                  community. We are ready to answer phone calls 24/7.We are open
-                  for conversation listening to attendants complaints.We can
-                  provide home service with caregiver even at mid night.
+                  Video editing is the manipulation and arrangement of video
+                  shots. Video editing is used to structure and present all
+                  video information, including films and television shows, video
+                  advertisements and video essays.
                 </p>
                 {/* <div className="card-actions">
                 <button className="btn btn-primary">Buy Now</button>
@@ -267,10 +268,11 @@ const Service = () => {
                   Graphices Design
                 </h2>
                 <p className="  p-8    lg:p-4 text-sm   text-white poppins-t text-justify">
-                  Our fifteen employee-team works round the clock to serve the
-                  community. We are ready to answer phone calls 24/7.We are open
-                  for conversation listening to attendants complaints.We can
-                  provide home service with caregiver even at mid night.
+                  Graphic design is a profession, academic discipline and
+                  applied art whose activity consists in projecting visual
+                  communications intended to transmit specific messages to
+                  social groups, with specific objectives. Graphic design is an
+                  interdisciplinary branch of design and of the fine arts.
                 </p>
                 {/* <div className="card-actions">
                 <button className="btn btn-primary">Buy Now</button>
@@ -306,10 +308,12 @@ const Service = () => {
                   Web Application Development
                 </h2>
                 <p className="  p-8    lg:p-4 text-sm   text-white poppins-t text-justify">
-                  Our fifteen employee-team works round the clock to serve the
-                  community. We are ready to answer phone calls 24/7.We are open
-                  for conversation listening to attendants complaints.We can
-                  provide home service with caregiver even at mid night.
+                  A web application is an interactive program that runs on a web
+                  server and is accessed through a web browser. A web app is
+                  built so that the user interface provides data back to the
+                  development team that designed it. This data offers insights
+                  into customer interests, usage, and preferences that can prove
+                  invaluable to product and marketing strategies.
                 </p>
                 {/* <div className="card-actions">
                 <button className="btn btn-primary">Buy Now</button>
@@ -344,10 +348,11 @@ const Service = () => {
                   Mobile App Development
                 </h2>
                 <p className="  p-8    lg:p-4 text-sm   text-white poppins-t text-justify">
-                  Our fifteen employee-team works round the clock to serve the
-                  community. We are ready to answer phone calls 24/7.We are open
-                  for conversation listening to attendants complaints.We can
-                  provide home service with caregiver even at mid night.
+                  Mobile application development is the process of making
+                  software for smartphones, tablets and digital assistants, most
+                  commonly for the Android and iOS operating systems. The
+                  software can be preinstalled on the device, downloaded from a
+                  mobile app store or accessed through a mobile web browser.
                 </p>
                 {/* <div className="card-actions">
                 <button className="btn btn-primary">Buy Now</button>
