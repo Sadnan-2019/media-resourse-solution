@@ -1,11 +1,11 @@
-import React from 'react';
-import "./NewContactLanding.css"
-import carrer from "../../assets/phone.jpg"
-import { FaPhoneVolume } from 'react-icons/fa';
+import React from "react";
+import "./NewContactLanding.css";
+import carrer from "../../assets/phone.jpg";
+import { FaPhoneVolume } from "react-icons/fa";
 const NewContactLanding = () => {
-    return (
-        <div>
-              <section className=" contactlanding  blog h-auto bg-gradient-to-r from-[#92468E] to-[#38235D]     shadow-xl  text-white">
+  return (
+    <div>
+      <section className=" contactlanding  blog h-auto bg-gradient-to-r from-[#92468E] to-[#38235D]     shadow-xl  text-white">
         <div className=" md:py-20 py-10 lg:py-24 lg:mx-16 mx-8 grid grid-cols-1 lg:grid-cols-2  gap-5 justify-center items-center">
           <div className="sm:max-w-xs lg:max-w-xl text-left md:ml-8 lg:order-2 order-2   lg:mt-0">
             <h2
@@ -17,26 +17,25 @@ const NewContactLanding = () => {
               className="md:text-[43px] font-bold text-[20px] text-left   text-transparent text-8xl    bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 "
             >
               {" "}
-              WE ARE INFLUENCER MARKETING.
+              We are constantly
+              providing you with quality service & maintaining the standard of
+              confidently finish our work.
             </h2>
 
-            <h1
+            {/* <h1
               className="mb-5 text-lg  lg:text-2xl max-w-lg mt-7 font-bold   md:text-[25px] poppins-t "
               style={{ lineHeight: "120%", color: "white" }}
             >
               Strategy and execution from the company that launched the
               industry.{" "}
-            </h1>
+            </h1> */}
 
             <div className="flex items-center mt-2 font-bold">
               <FaPhoneVolume
                 className="lg:text-2xl text-[20px] "
                 style={{ color: "white" }}
               />
-              <span
-                className="lg:text-2xl text-[20px]  text-transparent text-8xl    bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600"
-                 
-              >
+              <span className="lg:text-2xl text-[20px]  text-transparent text-8xl    bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">
                 {" "}
                 Call Now: 01619848555
               </span>
@@ -59,14 +58,13 @@ const NewContactLanding = () => {
 
           <div class="  sm:max-w-xs lg:max-w-xs text-left md:ml-8 lg:order-1 order-2   lg:mt-0  ">
             <img
-            data-aos="fade-left"
-            data-aos-offset="300"
-            data-aos-delay="5000"
-            data-aos-duration="3000"
+              data-aos="fade-left"
+              data-aos-offset="300"
+              data-aos-delay="5000"
+              data-aos-duration="3000"
               src={carrer}
               alt=""
               className="rounded-full    "
-             
             />
           </div>
         </div>
@@ -112,8 +110,8 @@ const NewContactLanding = () => {
           </svg>
         </div>
       </section>
-        </div>
-    );
+    </div>
+  );
 };
 
 export default NewContactLanding;
