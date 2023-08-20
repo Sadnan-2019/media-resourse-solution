@@ -120,13 +120,11 @@ const Service = () => {
                   Research,Data and Insight Solutions
                 </h2>
                 <p className="  p-8    lg:p-4 text-sm   text-white poppins-t text-justify">
-                  Also a research service platform encouraging and understanding
-                  different perspectives of world affairs and international
-                  policies that causes both positive and negative impacts on
-                  Bangladesh. This will provide potential consumers with better
-                  insights and knowledge to trade internationally and develop
-                  respective businesses and most importantly the country too new
-                  heights.
+                  The world is filled with data. The challenge is, how to
+                  transform it into information that has value — for both your
+                  organization and your customers. DataInsights works across the
+                  complete data life cycle in all aspects required for success.
+                  You’ll need DataInsights.
                 </p>
                 {/* <div className="card-actions">
                 <button className="btn btn-primary">Buy Now</button>
