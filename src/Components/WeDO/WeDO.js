@@ -10,10 +10,10 @@ const WeDO = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 px-10  py-10 items-center justify-items-center">
               <div
                 class="min-h-screen    "
-                // data-aos="fade-right"
-                // data-aos-offset="300"
-                // data-aos-delay="5000"
-                // data-aos-duration="3000"
+                data-aos="fade-right"
+                data-aos-offset="300"
+                data-aos-delay="5000"
+                data-aos-duration="3000"
               >
                 <div class="relative  p-8 border border-indigo-500 rounded-lg ">
                   <div class="  text-sm">
