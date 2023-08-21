@@ -25,14 +25,14 @@ const Service = () => {
         </div>
         {/* <button class="my-button justify-items-center">Click me</button> */}
 
-        <div className="grid sm:grid-cols-1  md:grid-cols-2 lg:grid-cols-3  px-0   lg:px-12 gap-10      items-center justify-items-center  py-10 ">
-          <div class="image-container h-96 w-11/12     lg:h-96 lg:w-11/12        	  card  mask mask-hexagon   text-white     max-w-sm shadow-2xl bg-gradient-to-r from-[#38235D] to-[#ab4059]  ">
+        <div className="grid grid-cols-1 gap-8 mt-8 md:grid-cols-2 lg:grid-cols-3 py-5 lg:px-10 lg:mx-10 items-center justify-items-center ">
+          <div class=" h-96 w-11/12     lg:h-96 lg:w-11/12  card  mask mask-hexagon   text-white     max-w-sm shadow-2xl bg-gradient-to-r from-[#38235D] to-[#ab4059]  ">
             <div
               className="       "
-              data-aos="fade-right"
-              data-aos-offset="300"
-              data-aos-delay="5000"
-              data-aos-duration="3000"
+              // data-aos="fade-right"
+              // data-aos-offset="300"
+              // data-aos-delay="5000"
+              // data-aos-duration="3000"
             >
               <figure className=" rounded-lg image-container">
                 <img
@@ -59,13 +59,13 @@ const Service = () => {
               </div>
             </div>
           </div>
-          <div class="image-container h-96 w-11/12     lg:h-96 lg:w-11/12        	  card  mask mask-hexagon   text-white     max-w-sm shadow-2xl bg-gradient-to-r from-[#38235D] to-[#ab4059]  ">
+          <div class=" h-96 w-11/12     lg:h-96 lg:w-11/12        	  card  mask mask-hexagon   text-white     max-w-sm shadow-2xl bg-gradient-to-r from-[#38235D] to-[#ab4059]  ">
             <div
               className="       "
-              data-aos="fade-right"
-              data-aos-offset="300"
-              data-aos-delay="5000"
-              data-aos-duration="3000"
+              // data-aos="fade-right"
+              // data-aos-offset="300"
+              // data-aos-delay="5000"
+              // data-aos-duration="3000"
             >
               <figure className=" rounded-lg image-container">
                 <img
@@ -93,19 +93,13 @@ const Service = () => {
             </div>
           </div>
 
-          <div
-            // data-aos="fade-right"
-            // data-aos-offset="300"
-            // data-aos-easing="ease-in-sine"
-            class="  card    h-96	w-11/12  mask mask-hexagon   text-white     max-w-sm shadow-2xl bg-gradient-to-r from-[#38235D] to-[#ab4059]  "
-            // style={{ height: "400px" }}
-          >
+          <div class="  card    h-96	w-11/12  mask mask-hexagon   text-white     max-w-sm shadow-2xl bg-gradient-to-r from-[#38235D] to-[#ab4059]  ">
             <div
               className="       "
-              data-aos="fade-right"
-              data-aos-offset="300"
-              data-aos-delay="5000"
-              data-aos-duration="3000"
+              // data-aos="fade-right"
+              // data-aos-offset="300"
+              // data-aos-delay="5000"
+              // data-aos-duration="3000"
             >
               <figure className=" rounded-lg image-container">
                 <img
@@ -133,12 +127,13 @@ const Service = () => {
             </div>
           </div>
 
-          <div
-            // data-aos="fade-left"
-            // data-aos-offset="300"
-            // data-aos-easing="ease-in-sine"
+
+
+
+
+          {/* <div
             class="  card    h-96	w-11/12  mask mask-hexagon   text-white      max-w-sm shadow-2xl bg-gradient-to-r from-[#38235D] to-[#ab4059]  "
-            style={{ height: "400px" }}
+            
           >
             <div
               className="       "
@@ -164,19 +159,12 @@ const Service = () => {
                   editing web content, typically for digital marketing purposes
                   with the aim of solving a problem for a specific audience.
                 </p>
-                {/* <div className="card-actions">
-                <button className="btn btn-primary">Buy Now</button>
-              </div> */}
+               
               </div>
             </div>
           </div>
 
-          <div
-            // data-aos="fade-left"
-            // data-aos-offset="300"
-            // data-aos-easing="ease-in-sine"
-            class="  card h-96	w-11/12   mask mask-hexagon   text-white     max-w-sm shadow-2xl bg-gradient-to-r from-[#38235D] to-[#ab4059]  "
-          >
+          <div class="  card h-96	w-11/12   mask mask-hexagon   text-white     max-w-sm shadow-2xl bg-gradient-to-r from-[#38235D] to-[#ab4059]  ">
             <div
               className="       "
               data-aos="fade-left"
@@ -189,7 +177,7 @@ const Service = () => {
                   src={digitalmarketing}
                   alt="Shoes"
                   className="rounded-xl p-4 h-1/5 w-24 mt-3"
-                  // style={{ height: "100px" }}
+               
                 />
               </figure>
               <div className="  text-center">
@@ -203,14 +191,12 @@ const Service = () => {
                   display ads, search engine marketing, paid social ads and
                   social media posts.
                 </p>
-                {/* <div className="card-actions">
-                <button className="btn btn-primary">Buy Now</button>
-              </div> */}
+             
               </div>
             </div>
           </div>
 
-          <div class="image-container h-96 w-11/12     lg:h-96 lg:w-11/12        	  card  mask mask-hexagon   text-white     max-w-sm shadow-2xl bg-gradient-to-r from-[#38235D] to-[#ab4059]  ">
+          <div class="  h-96 w-11/12     lg:h-96 lg:w-11/12        	  card  mask mask-hexagon   text-white     max-w-sm shadow-2xl bg-gradient-to-r from-[#38235D] to-[#ab4059]  ">
             <div
               className="       "
               data-aos="fade-right"
@@ -223,7 +209,7 @@ const Service = () => {
                   src={video}
                   alt="Shoes"
                   className="rounded-xl p-4 h-1/5 w-24 mt-3  	"
-                  // style={{ height: "100px" }}
+                   
                 />
               </figure>
               <div className="  text-center">
@@ -234,19 +220,11 @@ const Service = () => {
                   video information, including films and television shows, video
                   advertisements and video essays.
                 </p>
-                {/* <div className="card-actions">
-                <button className="btn btn-primary">Buy Now</button>
-              </div> */}
+               
               </div>
             </div>
           </div>
-          <div
-            // data-aos="fade-up"
-            // data-aos-offset="300"
-            // data-aos-easing="ease-in-sine"
-            class="h-96	w-11/12   card  mask mask-hexagon   text-white      max-w-sm shadow-2xl bg-gradient-to-r from-[#38235D] to-[#ab4059]  "
-            // style={{ height: "400px" }}
-          >
+          <div class="h-96	w-11/12   card  mask mask-hexagon   text-white      max-w-sm shadow-2xl bg-gradient-to-r from-[#38235D] to-[#ab4059]  ">
             <div
               className="       "
               data-aos="zoom-in"
@@ -272,20 +250,12 @@ const Service = () => {
                   social groups, with specific objectives. Graphic design is an
                   interdisciplinary branch of design and of the fine arts.
                 </p>
-                {/* <div className="card-actions">
-                <button className="btn btn-primary">Buy Now</button>
-              </div> */}
+                
               </div>
             </div>
           </div>
 
-          <div
-            // data-aos="fade-up"
-            // data-aos-offset="300"
-            // data-aos-easing="ease-in-sine"
-            class="  card    h-96	w-11/12  mask mask-hexagon   text-white     max-w-sm shadow-2xl bg-gradient-to-r from-[#38235D] to-[#ab4059]  "
-            // style={{ height: "400px" }}
-          >
+          <div class="  card    h-96	w-11/12  mask mask-hexagon   text-white     max-w-sm shadow-2xl bg-gradient-to-r from-[#38235D] to-[#ab4059]  ">
             <div
               className="       "
               data-aos="zoom-in"
@@ -313,19 +283,11 @@ const Service = () => {
                   into customer interests, usage, and preferences that can prove
                   invaluable to product and marketing strategies.
                 </p>
-                {/* <div className="card-actions">
-                <button className="btn btn-primary">Buy Now</button>
-              </div> */}
+            
               </div>
             </div>
           </div>
-          <div
-            // data-aos="fade-left"
-            // data-aos-offset="300"
-            // data-aos-easing="ease-in-sine"
-            class="  card    h-96	w-11/12  mask mask-hexagon   text-white     max-w-sm shadow-2xl bg-gradient-to-r from-[#38235D] to-[#ab4059]  "
-            // style={{ height: "400px" }}
-          >
+          <div class="  card    h-96	w-11/12  mask mask-hexagon   text-white     max-w-sm shadow-2xl bg-gradient-to-r from-[#38235D] to-[#ab4059]  ">
             <div
               className="       "
               data-aos="fade-left"
@@ -352,15 +314,14 @@ const Service = () => {
                   software can be preinstalled on the device, downloaded from a
                   mobile app store or accessed through a mobile web browser.
                 </p>
-                {/* <div className="card-actions">
-                <button className="btn btn-primary">Buy Now</button>
-              </div> */}
+                 
+              
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
 
-        <div
+        {/* <div
           data-aos="zoom-in"
           data-aos-offset="300"
           data-aos-delay="5000"
@@ -373,7 +334,7 @@ const Service = () => {
               d="M0,192L80,202.7C160,213,320,235,480,208C640,181,800,107,960,117.3C1120,128,1280,224,1360,272L1440,320L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"
             ></path>
           </svg>
-        </div>
+        </div> */}
       </div>
     </div>
   );
