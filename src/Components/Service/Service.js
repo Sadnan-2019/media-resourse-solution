@@ -131,16 +131,16 @@ const Service = () => {
 
 
 
-          {/* <div
+          <div
             class="  card    h-96	w-11/12  mask mask-hexagon   text-white      max-w-sm shadow-2xl bg-gradient-to-r from-[#38235D] to-[#ab4059]  "
             
           >
             <div
               className="       "
-              data-aos="fade-right"
-              data-aos-offset="300"
-              data-aos-delay="5000"
-              data-aos-duration="3000"
+              // data-aos="fade-right"
+              // data-aos-offset="300"
+              // data-aos-delay="5000"
+              // data-aos-duration="3000"
             >
               <figure className=" rounded-lg image-container">
                 <img
@@ -167,10 +167,10 @@ const Service = () => {
           <div class="  card h-96	w-11/12   mask mask-hexagon   text-white     max-w-sm shadow-2xl bg-gradient-to-r from-[#38235D] to-[#ab4059]  ">
             <div
               className="       "
-              data-aos="fade-left"
-              data-aos-offset="300"
-              data-aos-delay="5000"
-              data-aos-duration="3000"
+              // data-aos="fade-left"
+              // data-aos-offset="300"
+              // data-aos-delay="5000"
+              // data-aos-duration="3000"
             >
               <figure className=" rounded-lg image-container">
                 <img
@@ -199,10 +199,10 @@ const Service = () => {
           <div class="  h-96 w-11/12     lg:h-96 lg:w-11/12        	  card  mask mask-hexagon   text-white     max-w-sm shadow-2xl bg-gradient-to-r from-[#38235D] to-[#ab4059]  ">
             <div
               className="       "
-              data-aos="fade-right"
-              data-aos-offset="300"
-              data-aos-delay="5000"
-              data-aos-duration="3000"
+              // data-aos="fade-right"
+              // data-aos-offset="300"
+              // data-aos-delay="5000"
+              // data-aos-duration="3000"
             >
               <figure className=" rounded-lg image-container">
                 <img
@@ -227,10 +227,10 @@ const Service = () => {
           <div class="h-96	w-11/12   card  mask mask-hexagon   text-white      max-w-sm shadow-2xl bg-gradient-to-r from-[#38235D] to-[#ab4059]  ">
             <div
               className="       "
-              data-aos="zoom-in"
-              data-aos-offset="300"
-              data-aos-delay="5000"
-              data-aos-duration="3000"
+              // data-aos="zoom-in"
+              // data-aos-offset="300"
+              // data-aos-delay="5000"
+              // data-aos-duration="3000"
             >
               <figure className=" rounded-lg image-container">
                 <img
@@ -258,10 +258,10 @@ const Service = () => {
           <div class="  card    h-96	w-11/12  mask mask-hexagon   text-white     max-w-sm shadow-2xl bg-gradient-to-r from-[#38235D] to-[#ab4059]  ">
             <div
               className="       "
-              data-aos="zoom-in"
-              data-aos-offset="300"
-              data-aos-delay="5000"
-              data-aos-duration="3000"
+              // data-aos="zoom-in"
+              // data-aos-offset="300"
+              // data-aos-delay="5000"
+              // data-aos-duration="3000"
             >
               <figure className=" rounded-lg image-container">
                 <img
@@ -290,10 +290,10 @@ const Service = () => {
           <div class="  card    h-96	w-11/12  mask mask-hexagon   text-white     max-w-sm shadow-2xl bg-gradient-to-r from-[#38235D] to-[#ab4059]  ">
             <div
               className="       "
-              data-aos="fade-left"
-              data-aos-offset="300"
-              data-aos-delay="5000"
-              data-aos-duration="3000"
+              // data-aos="fade-left"
+              // data-aos-offset="300"
+              // data-aos-delay="5000"
+              // data-aos-duration="3000"
             >
               <figure className=" rounded-lg image-container">
                 <img
@@ -318,7 +318,7 @@ const Service = () => {
               
               </div>
             </div>
-          </div> */}
+          </div>
         </div>
 
         {/* <div
