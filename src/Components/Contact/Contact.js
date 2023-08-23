@@ -102,7 +102,7 @@ const Contact = () => {
               <div className="">
                 {/* <Map></Map> */}
                 <div>
-                  <h1 className="md:text-[43px] font-bold text-[20px] text-left  text-transparent text-8xl text-white">
+                  <h1 className=" mt-8   md:text-[43px] font-bold text-[17px]   text-transparent   text-white">
                     WE ARE ALWAYS HERE TO HELP YOU.
                   </h1>
                   <div
