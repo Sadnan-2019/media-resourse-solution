@@ -68,16 +68,16 @@ const WeDO = () => {
                   >
                    
 
-                    <div class="  newcontainer ">
+                    <div class="invisible lg:visible   newcontainer ">
                       <img src={wedo} alt="" />
                       <img src={wedo} alt="" />
                       <img src={wedo} alt="" />
                       <img src={wedo} alt="" />
                     </div>
-                    {/* <div class=" lg:hidden  ">
+                    <div class="visible lg:invisible   ">
                       <img src={wedo} alt="" />
                       
-                    </div> */}
+                    </div>
                   </div>
                 </div>
               </div>
