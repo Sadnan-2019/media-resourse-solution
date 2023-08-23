@@ -247,8 +247,7 @@ const Service = () => {
                   Graphic design is a profession, academic discipline and
                   applied art whose activity consists in projecting visual
                   communications intended to transmit specific messages to
-                  social groups, with specific objectives. Graphic design is an
-                  interdisciplinary branch of design and of the fine arts.
+                  social groups, with specific objectives. 
                 </p>
                 
               </div>
@@ -279,9 +278,7 @@ const Service = () => {
                   A web application is an interactive program that runs on a web
                   server and is accessed through a web browser. A web app is
                   built so that the user interface provides data back to the
-                  development team that designed it. This data offers insights
-                  into customer interests, usage, and preferences that can prove
-                  invaluable to product and marketing strategies.
+                  development team that designed it. 
                 </p>
             
               </div>
@@ -310,9 +307,7 @@ const Service = () => {
                 <p className="  p-8    lg:p-4 text-sm   text-white poppins-t text-justify">
                   Mobile application development is the process of making
                   software for smartphones, tablets and digital assistants, most
-                  commonly for the Android and iOS operating systems. The
-                  software can be preinstalled on the device, downloaded from a
-                  mobile app store or accessed through a mobile web browser.
+                  commonly for the Android and iOS operating systems.
                 </p>
                  
               
