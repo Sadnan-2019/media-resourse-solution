@@ -7,7 +7,7 @@ const WeDO = () => {
       <div>
         <div className=" py-14 ">
           <div className="wedoback ">
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 px-10  py-10 items-center justify-items-center">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 px-10  py-10 justify-center items-center  ">
               <div
                 class="min-h-screen    "
                 data-aos="fade-right"
@@ -66,21 +66,18 @@ const WeDO = () => {
                   // data-aos-duration="3000"
                   
                   >
-                    {/* <img
-                      data-aos="zoom-in"
-                      data-aos-offset="300"
-                      data-aos-delay="5000"
-                      data-aos-duration="3000"
-                      alt=""
-                      src={wedo}
-                    /> */}
+                   
 
-                    <div class="newcontainer ">
+                    <div class="  newcontainer ">
                       <img src={wedo} alt="" />
                       <img src={wedo} alt="" />
                       <img src={wedo} alt="" />
                       <img src={wedo} alt="" />
                     </div>
+                    {/* <div class=" lg:hidden  ">
+                      <img src={wedo} alt="" />
+                      
+                    </div> */}
                   </div>
                 </div>
               </div>
