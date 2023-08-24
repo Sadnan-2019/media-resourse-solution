@@ -1,0 +1,11 @@
+.full-width-slider{
+
+    width: 100%;
+    max-width: 100vw;
+    overflow: hidden;
+  }
+  .slider-slide {
+    height: 100vh;
+    /* background-size: cover;
+    background-position: center; */
+  }

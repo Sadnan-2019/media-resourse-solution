@@ -17,8 +17,8 @@ const Home = () => {
     <Landing></Landing>
     <Service></Service>
     <WeDO></WeDO>
-    {/* <Review></Review>
-    <Achievement></Achievement> */}
+    <Review></Review>
+    {/* <Achievement></Achievement> */}
     {/* <Working></Working> */}
     {/* <Clients></Clients> */}
     <Contact></Contact>
