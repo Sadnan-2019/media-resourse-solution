@@ -53,6 +53,10 @@ const Service = () => {
                   and more modern business, law and order, open mindset, and
                   eventually our country Bangladesh.
                 </p>
+                <span className="w-full text-black transition-colors duration-300 ease-in-out group-hover:text-white z-10">
+                  hover effect 2
+                </span>
+
                 {/* <div className="card-actions">
                 <button className="btn btn-primary">Buy Now</button>
               </div> */}
@@ -127,14 +131,7 @@ const Service = () => {
             </div>
           </div>
 
-
-
-
-
-          <div
-            class="  card    h-96	w-11/12  mask mask-hexagon   text-white      max-w-sm shadow-2xl bg-gradient-to-r from-[#38235D] to-[#ab4059]  "
-            
-          >
+          <div class="  card    h-96	w-11/12  mask mask-hexagon   text-white      max-w-sm shadow-2xl bg-gradient-to-r from-[#38235D] to-[#ab4059]  ">
             <div
               className="       "
               // data-aos="fade-right"
@@ -159,7 +156,6 @@ const Service = () => {
                   editing web content, typically for digital marketing purposes
                   with the aim of solving a problem for a specific audience.
                 </p>
-               
               </div>
             </div>
           </div>
@@ -177,7 +173,6 @@ const Service = () => {
                   src={digitalmarketing}
                   alt="Shoes"
                   className="rounded-xl p-4 h-1/5 w-24 mt-3"
-               
                 />
               </figure>
               <div className="  text-center">
@@ -191,7 +186,6 @@ const Service = () => {
                   display ads, search engine marketing, paid social ads and
                   social media posts.
                 </p>
-             
               </div>
             </div>
           </div>
@@ -209,7 +203,6 @@ const Service = () => {
                   src={video}
                   alt="Shoes"
                   className="rounded-xl p-4 h-1/5 w-24 mt-3  	"
-                   
                 />
               </figure>
               <div className="  text-center">
@@ -220,7 +213,6 @@ const Service = () => {
                   video information, including films and television shows, video
                   advertisements and video essays.
                 </p>
-               
               </div>
             </div>
           </div>
@@ -247,9 +239,8 @@ const Service = () => {
                   Graphic design is a profession, academic discipline and
                   applied art whose activity consists in projecting visual
                   communications intended to transmit specific messages to
-                  social groups, with specific objectives. 
+                  social groups, with specific objectives.
                 </p>
-                
               </div>
             </div>
           </div>
@@ -278,9 +269,8 @@ const Service = () => {
                   A web application is an interactive program that runs on a web
                   server and is accessed through a web browser. A web app is
                   built so that the user interface provides data back to the
-                  development team that designed it. 
+                  development team that designed it.
                 </p>
-            
               </div>
             </div>
           </div>
@@ -309,8 +299,6 @@ const Service = () => {
                   software for smartphones, tablets and digital assistants, most
                   commonly for the Android and iOS operating systems.
                 </p>
-                 
-              
               </div>
             </div>
           </div>
