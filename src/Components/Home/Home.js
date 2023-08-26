@@ -9,6 +9,7 @@ import Clients from "../../Components/Clients/Clients";
 import Contact from "../../Components/Contact/Contact";
 import Achievement from '../Achievement/Achievement';
 import WeDO from '../WeDO/WeDO';
+import Motion from '../Motion/Motion';
 
 
 const Home = () => {
@@ -22,6 +23,8 @@ const Home = () => {
     <Working></Working>
     {/* <Clients></Clients> */}
     <Contact></Contact>
+
+    <Motion></Motion>
         </div>
     );
 };

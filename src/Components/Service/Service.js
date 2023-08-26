@@ -53,9 +53,9 @@ const Service = () => {
                   and more modern business, law and order, open mindset, and
                   eventually our country Bangladesh.
                 </p>
-                <span className="w-full text-black transition-colors duration-300 ease-in-out group-hover:text-white z-10">
+                {/* <span className="w-full text-black transition-colors duration-300 ease-in-out group-hover:text-white z-10">
                   hover effect 2
-                </span>
+                </span> */}
 
                 {/* <div className="card-actions">
                 <button className="btn btn-primary">Buy Now</button>
