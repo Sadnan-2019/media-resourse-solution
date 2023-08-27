@@ -25,7 +25,7 @@ const Motion = () => {
             options={{
                 background: {
                     color: {
-                        value: "#0d47a1",
+                        value: "",
                     },
                 },
                 fpsLimit: 120,
@@ -57,7 +57,7 @@ const Motion = () => {
                     },
                     links: {
                         color: "#ffffff",
-                        distance: 150,
+                        distance: 100,
                         enable: true,
                         opacity: 0.5,
                         width: 1,
@@ -69,7 +69,7 @@ const Motion = () => {
                             default: "bounce",
                         },
                         random: false,
-                        speed: 6,
+                        speed: 3,
                         straight: false,
                     },
                     number: {
