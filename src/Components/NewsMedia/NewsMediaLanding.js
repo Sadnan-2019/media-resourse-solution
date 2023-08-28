@@ -19,7 +19,7 @@ const NewsMediaLanding = () => {
               className="md:text-[43px] font-bold text-[20px] text-left   text-transparent text-8xl    bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 "
             >
               {" "}
-              WE ARE MORE OBEDIENT & RESPONSIBLE FOR OUR WINGS.
+              WE ARE MORE OBEDIENT & RESPONSIBLE FOR OUR CLIENTS.
 
             </h2>
 
