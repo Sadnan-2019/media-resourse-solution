@@ -13,6 +13,7 @@ import tmc from "../../assets/tmc.jpg";
 import conserns1 from "../../assets/healthcare.png";
 import conserns2 from "../../assets/physical-therapy.png";
 import conserns3 from "../../assets/makeover.png";
+import conserns4 from "../../assets/restaurant.png";
 import hcah2 from "../../assets/hcah.jpg";
 import Leap2 from "../../assets/LEAP2.jpeg";
 
@@ -143,7 +144,7 @@ const News = () => {
                   Welcome to Tulip Garden & Resturent
                 </h5>
                 <div class="mb-3 gap-2 flex items-center justify-center text-sm font-medium  md:justify-start">
-                  <img src={conserns3} alt="" className="w-6 text-white" />
+                  <img src={conserns4} alt="" className="w-6 text-white" />
                  <p className="text-white"> Fast food restaurant</p>
                 </div>
                 {/* <p class="mb-6 text-neutral-500 dark:text-neutral-300">
