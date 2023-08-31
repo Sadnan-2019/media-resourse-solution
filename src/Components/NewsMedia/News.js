@@ -26,7 +26,13 @@ const News = () => {
     <div className="bg-gradient-to-r from-[#92468E] to-[#38235D] ">
       <h2 class="mb-12 text-center mt-9 text-3xl font-bold text-white py-7">Our Clients</h2>
       <div class="grid grid-cols-1 md:grid-cols-2 gap-2 px-4 mx-4  items-center justify-items-center">
-        <div class="container   mx-auto md:px-6">
+        <div class="container   mx-auto md:px-6" 
+        data-aos="zoom-in"
+        data-aos-offset="300"
+        data-aos-delay="5000"
+        data-aos-duration="3000"
+        
+             >
           {/* <!-- Section: Design Block --> */}
           <section class="mb-32 text-center md:text-left">
             {/* <h2 class="mb-12 text-center text-3xl font-bold">Latest articles</h2> */}
@@ -166,7 +172,12 @@ const News = () => {
             </div>
           </section>
         </div>
-        <div class="container   mx-auto md:px-6">
+        <div class="container   mx-auto md:px-6"
+        data-aos="zoom-in"
+        data-aos-offset="300"
+        data-aos-delay="5000"
+        data-aos-duration="3000"
+        >
           {/* <!-- Section: Design Block --> */}
           <section class="mb-32 text-center md:text-left">
             {/* <h2 class="mb-12 text-center text-3xl font-bold">Latest articles</h2> */}

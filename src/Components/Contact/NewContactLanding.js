@@ -1,6 +1,6 @@
 import React from "react";
 import "./NewContactLanding.css";
-import carrer from "../../assets/phone.jpg";
+import carrer from "../../assets/contact.svg";
 import { FaPhoneVolume } from "react-icons/fa";
 const NewContactLanding = () => {
   return (
@@ -14,12 +14,15 @@ const NewContactLanding = () => {
               data-aos-delay="5000"
               data-aos-duration="3000"
               style={{ lineHeight: "120%" }}
-              className="md:text-[43px] font-bold text-[20px] text-left   text-transparent text-8xl    bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 "
+              className="md:text-[43px]  font-bold text-[20px] text-left   text-transparent text-8xl    bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 
+                        
+              
+              
+              "
             >
               {" "}
-              We are constantly
-              providing you with quality service & maintaining the standard of
-              confidently finish our work.
+              We are constantly providing you with quality service & maintaining
+              the standard of confidently finish our work.
             </h2>
 
             {/* <h1
@@ -56,12 +59,12 @@ const NewContactLanding = () => {
             </div> */}
           </div>
 
-          <div class="  sm:max-w-xs lg:max-w-xs text-left md:ml-8 lg:order-1 order-2   lg:mt-0  ">
+          <div class="  sm:max-w-xs lg:max-w-xl text-left md:ml-8 lg:order-1 order-2   lg:mt-0  ">
             <img
-              data-aos="fade-left"
-              data-aos-offset="300"
-              data-aos-delay="5000"
-              data-aos-duration="3000"
+              // data-aos="fade-left"
+              // data-aos-offset="300"
+              // data-aos-delay="5000"
+              // data-aos-duration="3000"
               src={carrer}
               alt=""
               className="rounded-full    "

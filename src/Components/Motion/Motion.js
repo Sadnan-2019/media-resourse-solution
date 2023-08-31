@@ -17,7 +17,8 @@ const Motion = () => {
         await console.log(container);
     }, []);
     return (
-        <div>
+       <div>
+         <div className="grid grid-cols-12">
           <Particles
             id="tsparticles"
             init={particlesInit}
@@ -93,6 +94,7 @@ const Motion = () => {
             }}
         />  
         </div>
+       </div>
     );
 };
 
