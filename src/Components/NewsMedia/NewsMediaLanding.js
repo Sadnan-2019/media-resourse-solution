@@ -62,10 +62,10 @@ const NewsMediaLanding = () => {
 
           <div class="  sm:max-w-xs lg:max-w-xl text-left md:ml-8 lg:order-1 order-2   lg:mt-0  ">
             <img
-              // data-aos="fade-left"
-              // data-aos-offset="300"
-              // data-aos-delay="5000"
-              // data-aos-duration="3000"
+              data-aos="fade-up"
+              data-aos-offset="300"
+              data-aos-delay="5000"
+              data-aos-duration="3000"
               src={camera}
               alt=""
               className="rounded-full    "
