@@ -5,8 +5,8 @@ import { AnimatePresence, motion } from "framer-motion";
 const CarrerLanding = () => {
   const sentences = [
     'Artificial intelligence (AI) is the intelligence of machines',
-    'or software, as opposed to the intelligence of human beings',
-    'or animals.',
+    'or software, as opposed to the intelligence of human beings or animals',
+    
     // Add more sentences as needed
   ];
 const [currentIndex, setCurrentIndex] = useState(0);
