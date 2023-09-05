@@ -10,7 +10,7 @@ const WeDO = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 px-10  py-10 justify-center items-center  ">
               <div
                 class="min-h-screen    "
-                data-aos="fade-right"
+                data-aos="flip-down"
                 data-aos-offset="300"
                 data-aos-delay="5000"
                 data-aos-duration="3000"
