@@ -19,10 +19,10 @@ const Mytimeline = () => {
               <div class="flex flex-col sm:flex-row items-center">
                 <div class="flex justify-start   mx-auto items-center ">
                   <div class="sm:w-1/2 sm:pr-8 bg-white   "
-                  data-aos="fade-right"
-                  data-aos-offset="300"
-                  data-aos-delay="5000"
-                  data-aos-duration="3000"
+                  // data-aos="fade-right"
+                  // data-aos-offset="300"
+                  // data-aos-delay="5000"
+                  // data-aos-duration="3000"
                   
                   >
                     <div class="p-4   rounded shadow  w-full ">
@@ -57,10 +57,10 @@ const Mytimeline = () => {
                 <div class="flex justify-end w-full mx-auto items-center">
                   <div class="w-full sm:w-1/2 ">
                     <div class="p-4 bg-white rounded shadow"
-                    data-aos="fade-left"
-                    data-aos-offset="300"
-                    data-aos-delay="5000"
-                    data-aos-duration="3000"
+                    // data-aos="fade-left"
+                    // data-aos-offset="300"
+                    // data-aos-delay="5000"
+                    // data-aos-duration="3000"
                     
                     >
                       ChatGPT Image Generator is an innovative AI system that
@@ -87,10 +87,10 @@ const Mytimeline = () => {
                 <div class="flex justify-start w-full mx-auto items-center">
                   <div class="w-full sm:w-1/2 ">
                     <div class="p-4 bg-white rounded shadow"
-                    data-aos="fade-left"
-                    data-aos-offset="300"
-                    data-aos-delay="5000"
-                    data-aos-duration="3000"
+                    // data-aos="fade-left"
+                    // data-aos-offset="300"
+                    // data-aos-delay="5000"
+                    // data-aos-duration="3000"
                     >
                       Midjourney is an independent research lab exploring new
                       mediums of thought and expanding the imaginative powers of
@@ -116,10 +116,10 @@ const Mytimeline = () => {
                 <div class="flex justify-end w-full mx-auto items-center">
                   <div class="w-full sm:w-1/2 ">
                     <div class="p-4 bg-white rounded shadow"
-                    data-aos="fade-right"
-                    data-aos-offset="300"
-                    data-aos-delay="5000"
-                    data-aos-duration="3000"
+                    // data-aos="fade-right"
+                    // data-aos-offset="300"
+                    // data-aos-delay="5000"
+                    // data-aos-duration="3000"
                     >
                       Bird AI’s AI-based video conferencing brings inclusivity
                       and enables seamless two-way communication. Embrace hybrid

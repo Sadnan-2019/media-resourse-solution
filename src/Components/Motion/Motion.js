@@ -58,7 +58,7 @@ const Motion = () => {
                     },
                     links: {
                         color: "#ffffff",
-                        distance: 100,
+                        distance: 60,
                         enable: true,
                         opacity: 0.5,
                         width: 1,
