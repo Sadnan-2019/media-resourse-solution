@@ -1,6 +1,6 @@
 import React from "react";
 import { FaPhoneVolume } from "react-icons/fa";
-import camera from "../../assets/newslandingimg (1) (1) (1)-min.jpg";
+import camera from "../../assets/clients.jpg";
 import "./NewsMediaLanding.css";
 
 const NewsMediaLanding = () => {

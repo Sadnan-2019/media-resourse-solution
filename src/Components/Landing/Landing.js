@@ -76,7 +76,7 @@ const Landing = () => {
                   className="mb-5 text-lg  lg:text-2xl max-w-lg mt-7 font-bold   md:text-[25px] poppins-t "
                   style={{ lineHeight: "120%", color: "white" }}
                 >
-                  which aims to induce and influence.{" "}
+                  which aims to reproduce and influence.{" "}
                 </h1>
 
                 <div className="flex items-center mt-2 font-bold">

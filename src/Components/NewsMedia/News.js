@@ -7,7 +7,7 @@ import tmcc from "../../assets/mrglogo (4).png";
 import tcc from "../../assets/mrglogo (3).png";
 import tgr from "../../assets/mrglogo (5).png";
 import innrah from "../../assets/inaarah.jpeg";
-import tmc from "../../assets/tmc.jpg";
+// import tmc from "../../assets/tmc.jpg";
 
 // import rose from "../../assets/makeover.png"
 import conserns1 from "../../assets/healthcare.png";
