@@ -59,12 +59,7 @@ const News = () => {
                   <img src={conserns1} alt="" className="w-6 text-white " />
                   <p className="text-neutral-100 dark:text-neutral-300">Health & Medical</p>
                 </div>
-                {/* <p class="mb-6 text-neutral-500 dark:text-neutral-300">
-                  <small>
-                    Published <u>13.01.2022</u> by
-                    <a href="#!">Anna Maria Doe</a>
-                  </small>
-                </p> */}
+                 
                 <p class="text-neutral-100 dark:text-neutral-300">
                   Pioneer of delivering professional and quality health care at
                   home in Bangladesh.
@@ -92,13 +87,7 @@ const News = () => {
                   <img src={conserns2} alt="" className="w-6 text-white" />
                   <p className="text-neutral-100">Physiotherapy Center</p>
                 </div>
-                {/* <p class="mb-6 text-neutral-500 dark:text-neutral-300">
-                  <small>
-                    Published <u>12.01.2022</u> by
-                    <a href="#!"></a>
-
-                  </small>
-                </p> */}
+                
                 <p class="text-neutral-100 dark:text-neutral-300">
                   LEAP - a well equipped center in Gulshan for physiotherapy,
                   rehabilitation and sports injuries.
@@ -157,17 +146,7 @@ const News = () => {
                   <img src={conserns4} alt="" className="w-6 text-white" />
                  <p className="text-white"> Fast food restaurant</p>
                 </div>
-                {/* <p class="mb-6 text-neutral-500 dark:text-neutral-300">
-                  <small>
-                    Published <u>10.01.2022</u> by
-                    <a href="#!">Joe Svan</a>
-                  </small>
-                </p> */}
-                {/* <p class="text-neutral-500 dark:text-neutral-300">
-                  Curabitur tristique, mi a mollis sagittis, metus felis mattis
-                  arcu, non vehicula nisl dui quis diam. Mauris ut risus eget
-                  massa volutpat feugiat. Donec.
-                </p> */}
+               
               </div>
             </div>
           </section>
@@ -203,17 +182,7 @@ const News = () => {
 
                  <p className="text-white"> Group of Company</p>
                 </div>
-                {/* <p class="mb-6 text-neutral-500 dark:text-neutral-300">
-                  <small>
-                    Published <u>13.01.2022</u> by
-                    <a href="#!">Anna Maria Doe</a>
-                  </small>
-                </p> */}
-               {/* <p class="text-neutral-500 dark:text-neutral-300">
-                  Curabitur tristique, mi a mollis sagittis, metus felis mattis
-                  arcu, non vehicula nisl dui quis diam. Mauris ut risus eget
-                  massa volutpat feugiat. Donec.
-                </p> */}
+               
               </div>
             </div>
 
@@ -240,12 +209,7 @@ const News = () => {
 
                   <p className="text-white">Health & Medical</p>
                 </div>
-                {/* <p class="mb-6 text-neutral-500 dark:text-neutral-300">
-                  <small>
-                    Published <u>12.01.2022</u> by
-                    <a href="#!">Halley Frank</a>
-                  </small>
-                </p> */}
+                
                 <p class="text-neutral-100 dark:text-neutral-300">
                   A premier diagnostic & hospital in Trishal, Mymensingh serving
                   and caring for the people.
@@ -276,17 +240,7 @@ const News = () => {
 
                   <p className="text-white">Performance & event venue</p>
                 </div>
-                {/* <p class="mb-6 text-neutral-500 dark:text-neutral-300">
-                  <small>
-                    Published <u>10.01.2022</u> by
-                    <a href="#!">Joe Svan</a>
-                  </small>
-                </p> */}
-                {/* <p class="text-neutral-500 dark:text-neutral-300">
-                  Curabitur tristique, mi a mollis sagittis, metus felis mattis
-                  arcu, non vehicula nisl dui quis diam. Mauris ut risus eget
-                  massa volutpat feugiat. Donec.
-                </p> */}
+                
               </div>
             </div>
             <div class="mb-6 flex flex-wrap">
@@ -312,210 +266,14 @@ const News = () => {
 
                 <p className="text-white">  Clothings Business</p>
                 </div>
-                {/* <p class="mb-6 text-neutral-100 dark:text-neutral-300">
-                  <small>
-                    Published <u>10.01.2022</u> by
-                    <a href="#!">Joe Svan</a>
-                  </small>
-                </p>
-                <p class="text-neutral-500 dark:text-neutral-300">
-                  Curabitur tristique, mi a mollis sagittis, metus felis mattis
-                  arcu, non vehicula nisl dui quis diam. Mauris ut risus eget
-                  massa volutpat feugiat. Donec.
-                </p> */}
+                 
               </div>
             </div>
           </section>
         </div>
       </div>
 
-      {/* ////////FIRST NEWS */}
-      {/* <div className="grid grid-col-1 md:grid-cols-1 gap-2 px-4 mx-4 items-center justify-items-center">
-        <div class="container   mx-auto md:px-6">
        
-          <section class="mb-32">
-            <div class="grid gap-6 lg:grid-cols-3">
-              <div
-                class="zoom relative overflow-hidden rounded-lg bg-cover bg-no-repeat shadow-lg dark:shadow-black/20"
-                data-te-ripple-init
-                data-te-ripple-color="light"
-              >
-                <img
-                  src={hcah2}
-                  class="w-full align-middle transition duration-300 ease-linear"
-                  alt=""
-                />
-                <a href="#!">
-                  <div class="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-[hsla(0,0%,0%,0.4)] bg-fixed">
-                    <div class="flex h-full items-end justify-start">
-                      <div class="m-6 text-white">
-                        <h5 class="mb-3 text-lg font-bold">
-                          HealthCare At Home
-                        </h5>
-                        <p>
-                          <small>
-                            The services are affordable, dedicated, and
-                            customized for each individual client. It also
-                            ensures the quality of service providers by ensuring
-                            certification, training, and verification of their
-                            work experience and identity, respectively.
-                            Limitations such as providing patients with the
-                            correct healthcare plan and personal monitoring
-                            services in real-time, and providing necessary
-                            logistical support, can be solved through the
-                            operation module adopted by HCAH
-                          </small>
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-fixed transition duration-300 ease-in-out hover:bg-[hsla(0,0%,99%,0.15)]"></div>
-                </a>
-              </div>
-
-              <div
-                class="zoom relative overflow-hidden rounded-lg bg-cover bg-no-repeat shadow-lg dark:shadow-black/20"
-                data-te-ripple-init
-                data-te-ripple-color="light"
-              >
-                <img
-                  alt=""
-                  src={Leap2}
-                  class="w-full align-middle transition duration-300 ease-linear"
-                />
-                <a href="#!">
-                  <div class="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-[hsla(0,0%,0%,0.4)] bg-fixed">
-                    <div class="flex h-full items-end justify-start">
-                      <div class="m-6 text-white">
-                        <h5 class="mb-3 text-lg font-bold">
-                          Life Enrichment Activity Program
-                        </h5>
-                        <p>
-                          <small>
-                            Published <u>12.01.2022</u> by Mark Equel
-                          </small>
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-fixed transition duration-300 ease-in-out hover:bg-[hsla(0,0%,99%,0.15)]"></div>
-                </a>
-              </div>
-
-              <div
-                class="zoom relative overflow-hidden rounded-lg bg-cover bg-no-repeat shadow-lg dark:shadow-black/20"
-                data-te-ripple-init
-                data-te-ripple-color="light"
-              >
-                <img
-                  alt=""
-                  src={tmc}
-                  class="w-full align-middle transition duration-300 ease-linear"
-                />
-                <a href="#!">
-                  <div class="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-[hsla(0,0%,0%,0.4)] bg-fixed">
-                    <div class="flex h-full items-end justify-start">
-                      <div class="m-6 text-white">
-                        <h5 class="mb-3 text-lg font-bold">
-                          Life Enrichment Activity Program
-                        </h5>
-                        <p>
-                          <small>
-                            Published <u>12.01.2022</u> by Mark Equel
-                          </small>
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-fixed transition duration-300 ease-in-out hover:bg-[hsla(0,0%,99%,0.15)]"></div>
-                </a>
-              </div>
-
-              <div
-                class="zoom relative overflow-hidden rounded-lg bg-cover bg-no-repeat shadow-lg dark:shadow-black/20"
-                data-te-ripple-init
-                data-te-ripple-color="light"
-              >
-                <img
-                  src="https://mdbcdn.b-cdn.net/img/new/standard/nature/047.jpg"
-                  class="w-full align-middle transition duration-300 ease-linear"
-                />
-                <a href="#!">
-                  <div class="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-[hsla(0,0%,0%,0.4)] bg-fixed">
-                    <div class="flex h-full items-end justify-start">
-                      <div class="m-6 text-white">
-                        <h5 class="mb-3 text-lg font-bold">Let's go!</h5>
-                        <p>
-                          <small>
-                            Published <u>09.01.2022</u> by Halley Frank
-                          </small>
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-fixed transition duration-300 ease-in-out hover:bg-[hsla(0,0%,99%,0.15)]"></div>
-                </a>
-              </div>
-
-              <div
-                class="zoom relative overflow-hidden rounded-lg bg-cover bg-no-repeat shadow-lg dark:shadow-black/20"
-                data-te-ripple-init
-                data-te-ripple-color="light"
-              >
-                <img
-                  src="https://mdbcdn.b-cdn.net/img/new/standard/nature/028.jpg"
-                  class="w-full align-middle transition duration-300 ease-linear"
-                />
-                <a href="#!">
-                  <div class="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-[hsla(0,0%,0%,0.4)] bg-fixed">
-                    <div class="flex h-full items-end justify-start">
-                      <div class="m-6 text-white">
-                        <h5 class="mb-3 text-lg font-bold">
-                          A hut in the mountains
-                        </h5>
-                        <p>
-                          <small>
-                            Published <u>07.01.2022</u> by David Beak
-                          </small>
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-fixed transition duration-300 ease-in-out hover:bg-[hsla(0,0%,99%,0.15)]"></div>
-                </a>
-              </div>
-
-              <div
-                class="zoom relative overflow-hidden rounded-lg bg-cover bg-no-repeat shadow-lg dark:shadow-black/20"
-                data-te-ripple-init
-                data-te-ripple-color="light"
-              >
-                <img
-                  src="https://mdbcdn.b-cdn.net/img/new/standard/nature/049.jpg"
-                  class="w-full align-middle transition duration-300 ease-linear"
-                />
-                <a href="#!">
-                  <div class="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-[hsla(0,0%,0%,0.4)] bg-fixed">
-                    <div class="flex h-full items-end justify-start">
-                      <div class="m-6 text-white">
-                        <h5 class="mb-3 text-lg font-bold">
-                          Beautiful waterfall
-                        </h5>
-                        <p>
-                          <small>
-                            Published <u>04.01.2022</u> by Joe Svan
-                          </small>
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-fixed transition duration-300 ease-in-out hover:bg-[hsla(0,0%,99%,0.15)]"></div>
-                </a>
-              </div>
-            </div>
-          </section>
-         </div>
-      </div> */}
     </div>
   );
 };

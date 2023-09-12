@@ -40,24 +40,7 @@ const NewsMediaLanding = () => {
               </span>
             </div>
 
-            {/* <div className="flex  gap-4 mt-10 text-center">
-              <a
-                href="/"
-                className="md:text-[43px] font-bold text-[20px] text-left   text-transparent text-8xl bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 "
-
-              >
-                <span className="text-sm font-medium">
-                  {" "}
-                  GET STARTED WITH US
-                </span>
-                <BsArrowRight className="text-lg ml-2" />
-              </a>
-            </div> */}
-            {/* <div class="title">
-              <h1>تصميم مواقع - UI UX Design</h1>
-
-              
-            </div> */}
+             
           </div>
 
           <div class="  sm:max-w-xs lg:max-w-xl text-left md:ml-8 lg:order-1 order-2   lg:mt-0  ">
