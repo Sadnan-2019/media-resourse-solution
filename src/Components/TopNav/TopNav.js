@@ -2,14 +2,24 @@ import React from 'react';
 import { HiOutlineMailOpen } from "react-icons/hi";
 import { MdOutlinePhonelinkRing } from "react-icons/md";
 import logo from "../../assets/logo.png"
+import { Link } from 'react-router-dom';
 const TopNav = () => {
     return (
         <div>
              <div className="  ">
       <div className="flex   flex-col md:flex-row  justify-between px-10	 lx:px-12    items-center ">
-        <div>
-          <img  src={logo} className="w-24" alt="" />
-        </div>
+         
+          {/* <img  src={logo} className="w-24" alt="" /> */}
+          <Link to="/">
+            <div className="  flex items-center">
+              <img
+                className="w-24"
+                alt="logo"
+                src={logo}
+              />
+            </div>
+          </Link>
+         
         <div className="grid grid-cols-2 justify-items-center items-center gap-12  ">
            
           <div
