@@ -18,8 +18,8 @@ import conserns5 from "../../assets/doctor.png";
 import conserns6 from "../../assets/group.png";
 import conserns7 from "../../assets/showing.png";
 import conserns8 from "../../assets/clothings.png";
-import hcah2 from "../../assets/hcah.jpg";
-import Leap2 from "../../assets/LEAP2.jpeg";
+// import hcah2 from "../../assets/hcah.jpg";
+// import Leap2 from "../../assets/LEAP2.jpeg";
 
 const News = () => {  
   return (

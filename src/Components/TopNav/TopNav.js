@@ -31,7 +31,10 @@ const TopNav = () => {
             </div>
             <div>
               <p className="text-[10px] lg:text-xs   	">
-              01643-390832 
+              
+              <a href='tel:+01643-390832 ' className="  	">
+               01643-390832   
+              </a> 
               </p>
               <p className="text-[10px] lg:text-xs  	 	">01643-390832  </p>
             </div>
@@ -47,7 +50,8 @@ const TopNav = () => {
               <p className="text-[10px] lg:text-xs     	">
                 Email us
               </p>
-              <p className="text-[10px] lg:text-xs	 	">info@mrs.mrg.com.bd</p>
+              {/* <p className="text-[10px] lg:text-xs	 	">info@mrs.mrg.com.bd</p> */}
+              <a href='mailto:info@mrs.mrg.com.bd' className="text-[10px] lg:text-xs  	">info@mrs.mrg.com.bd</a>
             </div>
           </div>
           {/* <div

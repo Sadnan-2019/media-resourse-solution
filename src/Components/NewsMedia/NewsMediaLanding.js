@@ -36,7 +36,10 @@ const NewsMediaLanding = () => {
               />
               <span className="lg:text-2xl text-[20px]  text-transparent text-8xl    bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">
                 {" "}
-                Call Now: 01619848555
+                
+                <a href='tel:+01619848555' className="   	">
+              Call Now: 01619848555  
+              </a> 
               </span>
             </div>
 
