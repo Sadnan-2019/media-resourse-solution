@@ -52,14 +52,14 @@ useEffect(() => {
          
           </div>
 
-          <div class=" sm:max-w-xs lg:max-w-xl text-left md:ml-8 lg:order-1 order-1   lg:mt-0  ">
+          {/* <div class=" sm:max-w-xs lg:max-w-xl text-left md:ml-8 lg:order-1 order-1   lg:mt-0  ">
             <img
               src={carrer}
               alt=""
               className="    "
               data-aos="fade-left"
             />
-          </div>
+          </div> */}
         </div>
 
          
