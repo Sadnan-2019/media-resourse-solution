@@ -1,16 +1,11 @@
-import React from 'react';
-import { FaPhoneVolume } from 'react-icons/fa';
-import about from "../../assets/aboutlanding.avif"
-import "./AboutLanding.css"
+import React from "react";
+import { FaPhoneVolume } from "react-icons/fa";
+import about from "../../assets/aboutlanding.avif";
+import "./AboutLanding.css";
 const AboutLanding = () => {
-    return (
-        <div>
-
-
-
-            <section className=" aboutlanding  blog h-auto bg-gradient-to-r from-[#92468E] to-[#38235D]     shadow-xl  text-white">
-
-              
+  return (
+    <div>
+      <section className=" aboutlanding  blog h-auto     shadow-xl  text-white">
         <div className=" md:py-20 py-10 lg:py-24 lg:mx-16 mx-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2  gap-5 justify-center items-center">
           <div className="sm:max-w-xs lg:max-w-xl text-left md:ml-8 lg:order-1 order-2   lg:mt-0">
             <h2
@@ -38,28 +33,22 @@ const AboutLanding = () => {
                 className="lg:text-2xl text-[20px] "
                 style={{ color: "white" }}
               />
-              <span
-                className="lg:text-2xl text-[20px]  text-transparent text-8xl    bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600"
-                 
-              >
+              <span className="lg:text-2xl text-[20px]  text-transparent text-8xl    bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">
                 {" "}
                 Call Now: 01619848555
               </span>
             </div>
-
-             
           </div>
 
           <div class="  sm:max-w-xs lg:max-w-xl text-left md:ml-8 lg:order-1 order-2   lg:mt-0  ">
             <img
-            data-aos="flip-down"
-            data-aos-offset="300"
-            data-aos-delay="5000"
-            data-aos-duration="3000"
+              data-aos="flip-down"
+              data-aos-offset="300"
+              data-aos-delay="5000"
+              data-aos-duration="3000"
               src={about}
               alt=""
               className="rounded-lg   "
-             
             />
           </div>
         </div>
@@ -105,8 +94,8 @@ const AboutLanding = () => {
           </svg>
         </div>
       </section>
-        </div>
-    );
+    </div>
+  );
 };
 
 export default AboutLanding;

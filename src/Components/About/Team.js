@@ -4,8 +4,8 @@ const Team = () => {
     return (
         <div>
             <div>
-      <div>
-        <div className="container flex justify-center mx-auto pt-16">
+      <div className=''>
+        <div className="container flex justify-center mx-auto pt-16   ">
           <div>
             <p className="bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-pink-600 text-lg text-center font-bold pb-3">
               BUILDING TEAM
@@ -15,7 +15,7 @@ const Team = () => {
             </h1>
           </div>
         </div>
-        <div className="w-full bg-gray-100 px-10 pt-10">
+        <div className="w-full bg-gray-100 px-10 pt-10 bg-gradient-to-r from-[#92468E] via-[#132C0A] to-[#38235D]">
           <div className="container mx-auto">
             <div className="lg:flex  md:flex sm:flex items-center xl:justify-between flex-wrap md:justify-around sm:justify-around lg:justify-around">
               <div className="xl:w-1/3 sm:w-3/4 md:w-2/5 relative mt-16 mb-32 sm:mb-24 xl:max-w-sm lg:w-2/5">
