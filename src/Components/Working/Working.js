@@ -5,23 +5,11 @@ import design from "../../assets/design&development.png";
 import final from "../../assets/FinalProduct.png";
 import "./Working.css";
 import "animate.css";
-import logo from "../../assets/logo.jpeg";
+// import logo from "../../assets/logo.jpeg";
 const Working = () => {
   return (
-    <div className="py-10">
-      {/* <div className="py-10">
-        <div class="relative bg-gradient-to-r from-[#92468E] to-[#38235D]  border-4 border-white-600 mx-10 w-44">
-        
-          <div class="left-[125px] absolute bottom-0   transform -translate-x-2/2 translate-y-1/2 rotate-45 w-10 h-10 bg-white border-r border-b border-white-500"></div>
-   
-          <img src={logo} alt="" className="w-44" />
-          <div className="font-bold text-white ">
-          <p>For Service</p>
-          <p>01619848555 </p>
-          <p>01779848555</p>
-          </div>
-        </div>
-      </div> */}
+    <div className="py-10   blog">
+      
 
       <div
         className="bg-no-repeat	bg-cover py-12  "

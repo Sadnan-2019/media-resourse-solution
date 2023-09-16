@@ -7,7 +7,7 @@ const TopNav = () => {
     return (
         <div>
              <div className="  ">
-      <div className="flex   flex-col md:flex-row  justify-between px-10	 lx:px-12    items-center ">
+      <div className="flex  blog flex-col md:flex-row  justify-between px-10	 lx:px-12    items-center ">
          
           {/* <img  src={logo} className="w-24" alt="" /> */}
           <Link to="/">

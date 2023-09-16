@@ -1,17 +1,11 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React from "react";
+import { Link } from "react-router-dom";
+import GotoTop from "../GotoTop/GotoTop";
 
 const Footer = () => {
-    return (
-        <div>
-             <footer aria-label="Site Footer" class="bg-[#92468E]   ">
-      {/* <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-        <path
-          fill="white"
-          fill-opacity="50"
-          d="M0,160L60,138.7C120,117,240,75,360,90.7C480,107,600,181,720,181.3C840,181,960,107,1080,106.7C1200,107,1320,181,1380,218.7L1440,256L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z"
-        ></path>
-      </svg> */}
+  return (
+    <div>
+      <footer aria-label="Site Footer" class="bg-[#92468E] blog  ">
         <div class="mx-auto max-w-screen-xl px-4 pb-8 pt-16 sm:px-6 lg:px-8">
           <div class="mx-auto max-w-md">
             <strong class="block text-center text-xl font-bold text-white sm:text-3xl">
@@ -36,12 +30,11 @@ const Footer = () => {
                   Subscribe
                 </button> */}
                 <Link
-                      className= " rounded-full absolute hidden end-1 mt-1 hover-button bg-gradient-to-r from-[#92468E] to-[#38235D]  md:inline-flex items-center   md:px-8 md:py-3  border          text-white "
-                      to="/"
-                    >
-                      
-                      Subscribe                      
-                     </Link>
+                  className=" rounded-full absolute hidden end-1 mt-1 hover-button bg-gradient-to-r from-[#92468E] to-[#38235D]  md:inline-flex items-center   md:px-8 md:py-3  border          text-white "
+                  to="/"
+                >
+                  Subscribe
+                </Link>
               </div>
             </form>
           </div>
@@ -49,9 +42,8 @@ const Footer = () => {
           <div class="mt-16 grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-32">
             <div class="mx-auto max-w-sm lg:max-w-none">
               <p class="mt-4 text-center text-white lg:text-left lg:text-lg">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Praesentium natus quod eveniet aut perferendis distinctio iusto
-                repudiandae, provident velit earum?
+                We are constantly providing you with quality service &
+                maintaining the standard of confidently finish our work.
               </p>
 
               <div class="mt-6 flex justify-center gap-4 lg:justify-start">
@@ -165,8 +157,6 @@ const Footer = () => {
 
             <div class="grid grid-cols-1 gap-8 text-center lg:grid-cols-3 lg:text-left">
               <div>
-                <strong class="font-medium text-white"> Services </strong>
-
                 <nav
                   aria-label="Footer Services Nav"
                   class="mt-6 flex flex-col space-y-1"
@@ -199,8 +189,6 @@ const Footer = () => {
               </div>
 
               <div>
-                <strong class="font-medium text-white"> About </strong>
-
                 <nav
                   aria-label="Footer About Nav"
                   class="mt-6 flex flex-col space-y-1"
@@ -233,8 +221,6 @@ const Footer = () => {
               </div>
 
               <div>
-                <strong class="font-medium text-white"> Support </strong>
-
                 <nav
                   aria-label="Footer Support Nav"
                   class="mt-6 flex flex-col space-y-1"
@@ -259,28 +245,21 @@ const Footer = () => {
                 </nav>
               </div>
             </div>
-           
           </div>
 
           <div class="mt-16 border-t border-gray-100 pt-8">
             <p class="text-center text-xs/relaxed text-white">
-              © Company 2023. All rights reserved.
-              {/* <Link
-                      className= " hidden hover-button bg-gradient-to-r from-[#92468E] to-[#38235D]  md:inline-flex items-center   md:px-8 md:py-3  border          text-white "
-                      to="/"
-                    >
-                      <span className="text-sm font-medium">
-                        {" "}
-                        Get your dream
-                      </span>
-                     </Link> */}
+              © MRS 2023. All rights reserved.
             </p>
           </div>
-          
+
+          <div className="md:place-self-center md:justify-self-end">
+            <GotoTop></GotoTop>
+          </div>
         </div>
       </footer>
-        </div>
-    );
+    </div>
+  );
 };
 
 export default Footer;

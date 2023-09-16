@@ -48,7 +48,7 @@ const Achievement = () => {
       }
     return (
         <div>
-        <div className="py-10">
+        <div className="py-10 border-l-orange-700 blog">
       <div className="achievment">
         <div
           className=" "

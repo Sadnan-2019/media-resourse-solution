@@ -5,7 +5,7 @@ const WeDO = () => {
   return (
     <div>
       <div>
-        <div className=" py-14 ">
+        <div className=" py-14 blog">
           <div className="wedoback ">
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 px-10  py-10 justify-center items-center  ">
               <div

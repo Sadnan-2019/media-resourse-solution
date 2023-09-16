@@ -3,7 +3,7 @@ import React from "react";
 const Contact = () => {
   return (
     <div>
-      <div className=" py-14 ">
+      <div className=" py-14 blog">
         <div className="bg-gradient-to-r from-[#92468E] to-[#38235D]  ">
           <div className=" ">
             <h2 className="text-3xl py-7 text-center text-white   font-bold poppins-b sm:text-4xl">
