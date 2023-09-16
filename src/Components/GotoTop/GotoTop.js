@@ -28,7 +28,7 @@ const GotoTop = () => {
         <div>
           <BiArrowToTop
             onClick={gotoBtn}
-            className="bg-blue-700 float-right text-3xl top-btn   cursor-pointer"
+            className="bg-gradient-to-r from-[rgb(146,70,142)] to-[#38235D]  float-right text-3xl top-btn   cursor-pointer"
           />
         </div>
       )}

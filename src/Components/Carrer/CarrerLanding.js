@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "./CarrerLanding.css";
 import { AnimatePresence, motion } from "framer-motion";
-import carrer from "../../assets/AI_HAND.jpg"
+import carrer from "../../assets/aigif.gif"
 const CarrerLanding = () => {
   const sentences = [
     'Artificial intelligence (AI) is the intelligence of machines',
@@ -28,7 +28,7 @@ useEffect(() => {
   return (
     <div className="animated-text-container">
       <section className="carrerlanding    blog         ">
-        <div className=" md:py-20 py-10 lg:py-24 lg:mx-16 mx-8 grid grid-cols-1 lg:grid-cols-2  gap-5 justify-center items-center">
+        <div className=" md:py-20 py-10 lg:py-24 lg:mx-16 mx-8 grid grid-cols-1 md:grid-cols-2  lg:grid-cols-2  gap-5 justify-center items-center">
           <div className=" sm:max-w-xs lg:max-w-xl text-left md:ml-8   lg:mt-0">
             
             
@@ -41,7 +41,7 @@ useEffect(() => {
         exit={{ opacity: 0, y: -50 }}
         transition={{ duration: 1 }}
         style={{ lineHeight: "120%" }}
-        className="animated-text md:text-[43px] font-bold text-[20px] text-left   text-transparent text-8xl bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600"
+        className="animated-text lg:text-[43px] font-bold text-[20px] text-left   text-transparent text-8xl bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600"
       >
         {sentences[currentIndex]}
       </motion.h2>
@@ -52,14 +52,14 @@ useEffect(() => {
          
           </div>
 
-          {/* <div class=" sm:max-w-xs lg:max-w-xl text-left md:ml-8 lg:order-1 order-1   lg:mt-0  ">
+          <div class=" sm:max-w-xs lg:max-w-xl text-left md:ml-8 lg:order-1 order-1   lg:mt-0  ">
             <img
               src={carrer}
               alt=""
-              className="    "
-              data-aos="fade-left"
+              className="  rounded-lg  "
+              // data-aos="fade-left"
             />
-          </div> */}
+          </div>
         </div>
 
          

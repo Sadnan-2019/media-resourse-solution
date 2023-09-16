@@ -11,7 +11,7 @@ const AboutLanding = () => {
             <section className=" aboutlanding  blog h-auto bg-gradient-to-r from-[#92468E] to-[#38235D]     shadow-xl  text-white">
 
               
-        <div className=" md:py-20 py-10 lg:py-24 lg:mx-16 mx-8 grid grid-cols-1 lg:grid-cols-2  gap-5 justify-center items-center">
+        <div className=" md:py-20 py-10 lg:py-24 lg:mx-16 mx-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2  gap-5 justify-center items-center">
           <div className="sm:max-w-xs lg:max-w-xl text-left md:ml-8 lg:order-1 order-2   lg:mt-0">
             <h2
               data-aos="zoom-in"
@@ -19,14 +19,14 @@ const AboutLanding = () => {
               data-aos-delay="5000"
               data-aos-duration="3000"
               style={{ lineHeight: "120%" }}
-              className="md:text-[43px] font-bold text-[20px] text-left   text-transparent text-8xl    bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 "
+              className="lg:text-[43px] font-bold text-[20px] text-left   text-transparent text-8xl    bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 "
             >
               {" "}
               WE ARE INFLUENCER MARKETING.
             </h2>
 
             <h1
-              className="mb-5 text-lg  lg:text-2xl max-w-lg mt-7 font-bold   md:text-[25px] poppins-t "
+              className="mb-5 text-lg  lg:text-2xl max-w-lg mt-7 font-bold   lg:text-[25px] poppins-t "
               style={{ lineHeight: "120%", color: "white" }}
             >
               Strategy and execution from the company that launched the

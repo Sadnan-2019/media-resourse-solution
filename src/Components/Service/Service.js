@@ -12,7 +12,7 @@ import "./Service.css";
 const Service = () => {
   return (
     <div>
-      <div className="blog bg-gradient-to-r from-[rgb(146,70,142)] to-[#38235D]  text-white">
+      <div className="blog bg-gradient-to-r from-[#92468E] via-[#132C0A] to-[#38235D]  text-white">
         <div
           className=" "
           data-aos="flip-left"

@@ -7,7 +7,7 @@ import bird from "../../assets/birdAi.jpg";
 
 const Mytimeline = () => {
   return (
-    <div className="py-14">
+    <div className="py-14 blog">
       <div class="min-h-screen timeline py-6 flex flex-col justify-center sm:py-12">
         <div class="py-3 sm:max-w-xl sm:mx-auto w-full px-2 sm:px-0">
           <div class="relative text-gray-700 antialiased text-sm font-semibold">

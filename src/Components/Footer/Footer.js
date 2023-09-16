@@ -5,9 +5,11 @@ import GotoTop from "../GotoTop/GotoTop";
 const Footer = () => {
   return (
     <div>
-      <footer aria-label="Site Footer" class="bg-[#92468E] blog  ">
+
+      
+      <footer aria-label="Site Footer" class=" bg-gradient-to-r from-[#92468E] via-[#132C0A] to-[#38235D] blog  ">
         <div class="mx-auto max-w-screen-xl px-4 pb-8 pt-16 sm:px-6 lg:px-8">
-          <div class="mx-auto max-w-md">
+          <div class="mx-auto max-w-md">        
             <strong class="block text-center text-xl font-bold text-white sm:text-3xl">
               Want us to email you with the latest blockbuster news?
             </strong>

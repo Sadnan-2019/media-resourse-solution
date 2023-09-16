@@ -23,7 +23,7 @@ import conserns8 from "../../assets/clothings.png";
 
 const News = () => {  
   return (
-    <div className="bg-gradient-to-r from-[#92468E] to-[#38235D] ">
+    <div className="bg-gradient-to-r blog from-[#92468E] via-[#132C0A] to-[#38235D] ">
       <h2 class="mb-12 text-center mt-9 text-3xl font-bold text-white py-7">Our Clients</h2>
       <div class="grid grid-cols-1 md:grid-cols-2 gap-2 px-4 mx-4  items-center justify-items-center">
         <div class="container   mx-auto md:px-6" 
