@@ -81,14 +81,10 @@ const Service = () => {
               </figure>
               <div className="  text-center">
                 <h2 className="font-bold text-center text-xl">
-                  Online Campaign & Events{" "}
+                  Digital Campaign & Events{" "}
                 </h2>
                 <p className="  p-8    lg:p-4 text-sm   text-white poppins-t text-justify">
-                  Event marketing is planning, organizing, and executing an
-                  event for the purpose of promoting a brand, product, or
-                  service. Events can take place in-person or online, and
-                  companies can either host an event, attend as an exhibitor, or
-                  participate as a sponsor.
+                  Production to Ditrubution
                 </p>
                 {/* <div className="card-actions">
                 <button className="btn btn-primary">Buy Now</button>
@@ -115,14 +111,10 @@ const Service = () => {
               </figure>
               <div className="  text-center">
                 <h2 className="font-bold text-center text-xl">
-                  Research,Data and Insight Solutions
+                  Research,Data & Solutions
                 </h2>
                 <p className="  p-8    lg:p-4 text-sm   text-white poppins-t text-justify">
-                  The world is filled with data. The challenge is, how to
-                  transform it into information that has value — for both your
-                  organization and your customers. DataInsights works across the
-                  complete data life cycle in all aspects required for success.
-                  You’ll need DataInsights.
+                  Analyze Data to process effecting and insiggtfull  information for every merket and census.
                 </p>
                 {/* <div className="card-actions">
                 <button className="btn btn-primary">Buy Now</button>

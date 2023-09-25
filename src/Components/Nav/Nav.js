@@ -15,7 +15,7 @@ const Nav = () => {
     "  mx-1 text-white-600 font-medium font-bold focus:text-white p-0 lg:text-white   ";
   const navItem = (
     <>
-      <li className="nav-item p-2 	">
+      <li className="nav-item p-2 d-none	">
         <NavLink
           className={({ isActive }) => (isActive ? `${active}` : `${normal}`)}
           to="/home"

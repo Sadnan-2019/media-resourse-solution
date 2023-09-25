@@ -1,6 +1,6 @@
 .animated-text-container {
   width: 100%;
-  height: 70vh; /* Set the desired height for your background image container */
+  height: 100vh; /* Set the desired height for your background image container */
   overflow: hidden;
   position: relative;
 }

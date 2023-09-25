@@ -76,10 +76,10 @@ const Landing = () => {
                   className="mb-5 text-lg  lg:text-2xl max-w-lg mt-7 font-bold   md:text-[25px] poppins-t "
                   style={{ lineHeight: "120%", color: "white" }}
                 >
-                  which aims to reproduce and influence.{" "}
+                   which aims to induce and influence.{" "}
                 </h1>
 
-                <div className="flex items-center mt-2 font-bold">
+                {/* <div className="flex items-center mt-2 font-bold">
                   <FaPhoneVolume
                     className="lg:text-2xl text-[20px] "
                     style={{ color: "white" }}
@@ -91,7 +91,7 @@ const Landing = () => {
                     {" "}
                     Call Now: 01643-390832
                   </span>
-                </div>
+                </div> */}
 
                 <div className="flex  gap-4 mt-10 text-center">
                   <a
@@ -158,7 +158,7 @@ const Landing = () => {
                   Industry leading results and next-gen technology.
                 </h1>
 
-                <div className="flex items-center mt-2 font-bold">
+                {/* <div className="flex items-center mt-2 font-bold">
                   <FaPhoneVolume
                     className="lg:text-2xl text-[20px] "
                     style={{ color: "white" }}
@@ -170,7 +170,7 @@ const Landing = () => {
                     {" "}
                     Call Now: 01643-390832
                   </span>
-                </div>
+                </div> */}
 
                 <div className="flex  gap-4 mt-10 text-center">
                   <a
@@ -237,7 +237,7 @@ const Landing = () => {
                   World leading results and next-gen technology.
                 </h1>
 
-                <div className="flex items-center mt-2 font-bold">
+                {/* <div className="flex items-center mt-2 font-bold">
                   <FaPhoneVolume
                     className="lg:text-2xl text-[20px] "
                     style={{ color: "white" }}
@@ -249,7 +249,7 @@ const Landing = () => {
                     {" "}
                     Call Now: 01643-390832
                   </span>
-                </div>
+                </div> */}
 
                 <div className="flex  gap-4 mt-10 text-center">
                   <a
