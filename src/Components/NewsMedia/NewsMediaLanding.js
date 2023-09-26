@@ -1,6 +1,6 @@
 import React from "react";
-import { FaPhoneVolume } from "react-icons/fa";
-import camera from "../../assets/clients.jpg";
+// import { FaPhoneVolume } from "react-icons/fa";
+import camera from "../../assets/researchone.png";
 import "./NewsMediaLanding.css";
 
 const NewsMediaLanding = () => {
@@ -29,7 +29,7 @@ const NewsMediaLanding = () => {
               industry.{" "}
             </h1>
 
-            <div className="flex items-center mt-2 font-bold">
+            {/* <div className="flex items-center mt-2 font-bold">
               <FaPhoneVolume
                 className="lg:text-2xl text-[20px] "
                 style={{ color: "white" }}
@@ -41,7 +41,7 @@ const NewsMediaLanding = () => {
               Call Now: 01619848555  
               </a> 
               </span>
-            </div>
+            </div> */}
 
              
           </div>
