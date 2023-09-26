@@ -44,14 +44,10 @@ const Service = () => {
               </figure>
               <div className="  text-center">
                 <h2 className="font-bold text-center text-xl">
-                  Media Broadcasting
+                  MEDIA BROADCASTING
                 </h2>
                 <p className="  p-8    lg:p-4 text-sm   text-white poppins-t text-justify">
-                  This platform will enable individuals with specialized
-                  expertise to provide insights to the upcoming generation and
-                  interested individuals on building and constructing a better
-                  and more modern business, law and order, open mindset, and
-                  eventually our country Bangladesh.
+                We are creating revolutionary strategies in media and other associated industries.
                 </p>
                 {/* <span className="w-full text-black transition-colors duration-300 ease-in-out group-hover:text-white z-10">
                   hover effect 2
@@ -81,10 +77,10 @@ const Service = () => {
               </figure>
               <div className="  text-center">
                 <h2 className="font-bold text-center text-xl">
-                  Digital Campaign & Events{" "}
+                  DIGITAL CAMPAIGN & EVENTS{" "}
                 </h2>
                 <p className="  p-8    lg:p-4 text-sm   text-white poppins-t text-justify">
-                  Production to Ditrubution
+                  Production to Ditrubution of media across all available channels and spectrum.
                 </p>
                 {/* <div className="card-actions">
                 <button className="btn btn-primary">Buy Now</button>
@@ -111,7 +107,7 @@ const Service = () => {
               </figure>
               <div className="  text-center">
                 <h2 className="font-bold text-center text-xl">
-                  Research,Data & Solutions
+                  RESEARCH,DATA & SOLUTIONS
                 </h2>
                 <p className="  p-8    lg:p-4 text-sm   text-white poppins-t text-justify">
                   Analyze Data to process effecting and insiggtfull  information for every merket and census.
@@ -141,12 +137,10 @@ const Service = () => {
               </figure>
               <div className="  text-center">
                 <h2 className="font-bold text-center text-xl">
-                  Content Writing
+                  CONTENT WRITING
                 </h2>
                 <p className="  p-8    lg:p-4 text-sm   text-white poppins-t text-justify">
-                  Content writing is the process of planning, writing, and
-                  editing web content, typically for digital marketing purposes
-                  with the aim of solving a problem for a specific audience.
+                 Content production with the use of research and analytic.
                 </p>
               </div>
             </div>
@@ -169,14 +163,10 @@ const Service = () => {
               </figure>
               <div className="  text-center">
                 <h2 className="font-bold text-center text-xl">
-                  Digital Marketing
+                  DIGITAL MARKETING  
                 </h2>
                 <p className="  p-8    lg:p-4 text-sm   text-white poppins-t text-justify">
-                  In practice, digital marketing typically refers to marketing
-                  campaigns that appear on a computer, phone, tablet, or other
-                  device. It can take many forms, including online video,
-                  display ads, search engine marketing, paid social ads and
-                  social media posts.
+                Digital promotions and marketing for any enterprise in any market.
                 </p>
               </div>
             </div>
@@ -198,23 +188,17 @@ const Service = () => {
                 />
               </figure>
               <div className="  text-center">
-                <h2 className="font-bold text-center text-xl">Video Editing</h2>
+                <h2 className="font-bold text-center text-xl">VFX</h2>
                 <p className="  p-8    lg:p-4 text-sm   text-white poppins-t text-justify">
-                  Video editing is the manipulation and arrangement of video
-                  shots. Video editing is used to structure and present all
-                  video information, including films and television shows, video
-                  advertisements and video essays.
+                Visual effects and designing off all types of video content.
                 </p>
               </div>
             </div>
           </div>
-          <div class="h-96	w-11/12   card  mask mask-hexagon   text-white      max-w-sm shadow-2xl bg-gradient-to-r from-[#38235D] to-[#ab4059]  ">
+          {/* <div class="h-96	w-11/12   card  mask mask-hexagon   text-white      max-w-sm shadow-2xl bg-gradient-to-r from-[#38235D] to-[#ab4059]  ">
             <div
               className="       "
-              // data-aos="zoom-in"
-              // data-aos-offset="300"
-              // data-aos-delay="5000"
-              // data-aos-duration="3000"
+               
             >
               <figure className=" rounded-lg image-container">
                 <img
@@ -240,10 +224,7 @@ const Service = () => {
           <div class="  card    h-96	w-11/12  mask mask-hexagon   text-white     max-w-sm shadow-2xl bg-gradient-to-r from-[#38235D] to-[#ab4059]  ">
             <div
               className="       "
-              // data-aos="zoom-in"
-              // data-aos-offset="300"
-              // data-aos-delay="5000"
-              // data-aos-duration="3000"
+               
             >
               <figure className=" rounded-lg image-container">
                 <img
@@ -269,10 +250,7 @@ const Service = () => {
           <div class="  card    h-96	w-11/12  mask mask-hexagon   text-white     max-w-sm shadow-2xl bg-gradient-to-r from-[#38235D] to-[#ab4059]  ">
             <div
               className="       "
-              // data-aos="fade-left"
-              // data-aos-offset="300"
-              // data-aos-delay="5000"
-              // data-aos-duration="3000"
+              
             >
               <figure className=" rounded-lg image-container">
                 <img
@@ -293,7 +271,7 @@ const Service = () => {
                 </p>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
 
         <div
