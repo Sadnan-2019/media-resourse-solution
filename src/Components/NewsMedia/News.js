@@ -50,7 +50,7 @@ const News = () => {
                 <div class="z-20 flex items-center order-1 bg-gray-800 shadow-xl w-8 h-8 rounded-full">
                   <h1 class="mx-auto text-white font-semibold text-lg">2</h1>
                 </div>
-                <div class="order-1 bg-red-400 rounded-lg shadow-xl w-5/12 px-6 py-4">
+                <div class="order-1   rounded-lg shadow-xl w-5/12 px-6 py-4">
                   {/* <h3 class="mb-3 font-bold text-white text-xl">Lorem Ipsum</h3> */}
                   <p class="text-sm font-medium leading-snug tracking-wide text-white text-opacity-100">
                     The foreign policy is the tool through which a country
@@ -105,7 +105,7 @@ const News = () => {
                 <div class="z-20 flex items-center order-1 bg-gray-800 shadow-xl w-8 h-8 rounded-full">
                   <h1 class="mx-auto text-white font-semibold text-lg">4</h1>
                 </div>
-                <div class="order-1 bg-red-400 rounded-lg shadow-xl w-5/12 px-6 py-4">
+                <div class="order-1 rounded-lg shadow-xl w-5/12 px-6 py-4">
                   {/* <h3 class="mb-3 font-bold text-white text-xl">Lorem Ipsum</h3> */}
                   <p class="text-sm font-medium leading-snug tracking-wide text-white text-opacity-100">
                     Since the Foreign Policy of Bangladesh was always in
@@ -123,6 +123,52 @@ const News = () => {
                     the Chinese Aggression towards India since most of them are
                     silent and bankrolled by the Chinese, for e.g. Pakistan and
                     Sri Lanka.
+                  </p>
+                </div>
+              </div>
+
+              {/* <!-- right timeline --> */}
+              <div class="mb-8 flex justify-between items-center w-full right-timeline">
+                <div class="order-1 w-5/12"></div>
+                <div class="z-20 flex items-center order-1 bg-gray-800 shadow-xl w-8 h-8 rounded-full">
+                  <h1 class="mx-auto font-semibold text-lg text-white">5</h1>
+                </div>
+                <div class="order-1 bg-gray-400 rounded-lg shadow-xl w-5/12 px-6 py-4">
+                  {/* <h3 class="mb-3 font-bold text-gray-800 text-xl">
+                    Lorem Ipsum
+                  </h3> */}
+                  <p class="text-sm leading-snug tracking-wide text-gray-900 text-opacity-100">
+                    Bangladesh has a huge potential to become an international
+                    hub of trade and tourism and is potentially very rich in
+                    mineral resources in its Bay of Bengal which might attract
+                    further investments. The country must choose its investments
+                    more wisely and allocate them into appropriate sectors as it
+                    can really speed up the development of the country at a
+                    rapid pace. This is where the tension lies as it is always
+                    seen that whenever a country starts to develop and grow the
+                    powerful neighbors/neighbor tend to slow it down or even
+                    create unrest just to level the playing field and influence
+                    of the developing country in the region.
+                  </p>
+                </div>
+              </div>
+
+              <div class="mb-8 flex justify-between flex-row-reverse items-center w-full left-timeline">
+                <div class="order-1 w-5/12"></div>
+                <div class="z-20 flex items-center order-1 bg-gray-800 shadow-xl w-8 h-8 rounded-full">
+                  <h1 class="mx-auto text-white font-semibold text-lg">6</h1>
+                </div>
+                <div class="order-1 rounded-lg shadow-xl w-5/12 px-6 py-4">
+                  {/* <h3 class="mb-3 font-bold text-white text-xl">Lorem Ipsum</h3> */}
+                  <p class="text-sm font-medium leading-snug tracking-wide text-white text-opacity-100">
+                    Bangladesh has enjoyed a fair amount of peace from its birth
+                    in 1971. Leaving the internal political skirmishes aside
+                    there has been no major international clash or threats,
+                    except the dispute with Myanmar over the Rohingya issue.
+                    This issue was also solved with the backing of mainly India
+                    and other International countries. But what will happen if
+                    India thinks that Bangladesh is lost to China ? This is the
+                    million dollar question
                   </p>
                 </div>
               </div>
