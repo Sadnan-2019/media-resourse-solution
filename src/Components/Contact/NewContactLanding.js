@@ -33,7 +33,7 @@ const NewContactLanding = () => {
               industry.{" "}
             </h1> */}
 
-            <div className="flex items-center mt-2 font-bold">
+            {/* <div className="flex items-center mt-2 font-bold">
               <FaPhoneVolume
                 className="lg:text-2xl text-[20px] "
                 style={{ color: "white" }}
@@ -42,7 +42,7 @@ const NewContactLanding = () => {
                 {" "}
                 Call Now: 01619848555
               </span>
-            </div>
+            </div> */}
 
             {/* <div className="flex  gap-4 mt-10 text-center">
               <a

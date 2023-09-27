@@ -152,7 +152,7 @@ const News = () => {
                   </p>
                 </div>
               </div>
-
+              {/* <!-- left timeline --> */}
               <div class="mb-8 flex justify-between flex-row-reverse items-center w-full left-timeline">
                 <div class="order-1 w-5/12"></div>
                 <div class="z-20 flex items-center order-1 bg-gray-800 shadow-xl w-8 h-8 rounded-full">
@@ -169,6 +169,60 @@ const News = () => {
                     and other International countries. But what will happen if
                     India thinks that Bangladesh is lost to China ? This is the
                     million dollar question
+                  </p>
+                </div>
+              </div>
+
+              {/* <!-- right timeline --> */}
+              <div class="mb-8 flex justify-between items-center w-full right-timeline">
+                <div class="order-1 w-5/12"></div>
+                <div class="z-20 flex items-center order-1 bg-gray-800 shadow-xl w-8 h-8 rounded-full">
+                  <h1 class="mx-auto font-semibold text-lg text-white">7</h1>
+                </div>
+                <div class="order-1 bg-gray-400 rounded-lg shadow-xl w-5/12 px-6 py-4">
+                  {/* <h3 class="mb-3 font-bold text-gray-800 text-xl">
+                    Lorem Ipsum
+                  </h3> */}
+                  <p class="text-sm leading-snug tracking-wide text-gray-900 text-opacity-100">
+                    If Bangladesh complies its foreign policy towards the
+                    benefit of China there will be a whole lot to pay and gain
+                    for the small country. Advantages for Bangladesh would
+                    comprise of more financial support from China, making China
+                    (with its influence on Myanmar) take back or provide a
+                    permanent solution on the Rohingya refugee crisis, get more
+                    trade benefits and even technological upgrades (since China
+                    has better technology than India). However the list of
+                    Disadvantages are high starting with a trade rift with its
+                    old friend India (which is happening), the country can also
+                    face flooding and civil unrest if India decides to open up
+                    its Dams and sow dissent or chaos by not continuing to
+                    support the already vulnerable Bangladeshi government.
+                    Bangladesh may also face the anger of other international
+                    countries especially the United States of America (since the
+                    U.S.A. is engaged in a rift with China over a number of
+                    issues most prominently the Corona virus which originated in
+                    China). And most importantly Bangladesh must be on the
+                    lookout as there are many countries that have fallen to the
+                    Chinese debt trap which resulted in China completely taking
+                    over that respective countries' independence in policy
+                    making and defense apparatus.
+                  </p>
+                </div>
+              </div>
+
+              <div class="mb-8 flex justify-between flex-row-reverse items-center w-full left-timeline">
+                <div class="order-1 w-5/12"></div>
+                <div class="z-20 flex items-center order-1 bg-gray-800 shadow-xl w-8 h-8 rounded-full">
+                  <h1 class="mx-auto text-white font-semibold text-lg">8</h1>
+                </div>
+                <div class="order-1 rounded-lg shadow-xl w-5/12 px-6 py-4">
+                  {/* <h3 class="mb-3 font-bold text-white text-xl">Lorem Ipsum</h3> */}
+                  <p class="text-sm font-medium leading-snug tracking-wide text-white text-opacity-100">
+                    So in the coming years the foreign policy will provide to be
+                    the only and key element that keeps the country from turmoil
+                    and selling its soul to another powerful country. Either
+                    their will be a prosperous Bangladesh with high living
+                    standards or there will be no country at all.
                   </p>
                 </div>
               </div>
