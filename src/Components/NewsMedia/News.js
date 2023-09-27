@@ -1,279 +1,135 @@
 import React from "react";
-import hcah from "../../assets/download.png";
-import leap from "../../assets/leap.jpg";
-import rose from "../../assets/mrglogo (7).png";
-import mrg from "../../assets/mrglogo (1).png";
-import tmcc from "../../assets/mrglogo (4).png";
-import tcc from "../../assets/mrglogo (3).png";
-import tgr from "../../assets/mrglogo (5).png";
-import innrah from "../../assets/inaarah.jpeg";
-// import tmc from "../../assets/tmc.jpg";
-
-// import rose from "../../assets/makeover.png"
-import conserns1 from "../../assets/healthcare.png";
-import conserns2 from "../../assets/physical-therapy.png";
-import conserns3 from "../../assets/makeover.png";
-import conserns4 from "../../assets/restaurant.png";
-import conserns5 from "../../assets/doctor.png";
-import conserns6 from "../../assets/group.png";
-import conserns7 from "../../assets/showing.png";
-import conserns8 from "../../assets/clothings.png";
+import "./News.css";
 // import hcah2 from "../../assets/hcah.jpg";
 // import Leap2 from "../../assets/LEAP2.jpeg";
 
-const News = () => {  
+const News = () => {
   return (
     <div className="bg-gradient-to-r blog from-[#92468E] via-[#132C0A] to-[#38235D] ">
-      <h2 class="mb-12 text-center mt-9 text-3xl font-bold text-white py-7">Our Clients</h2>
-      <div class="grid grid-cols-1 md:grid-cols-2 gap-2 px-4 mx-4  items-center justify-items-center">
-        <div class="container   mx-auto md:px-6" 
-        data-aos="zoom-in"
-        data-aos-offset="300"
-        data-aos-delay="5000"
-        data-aos-duration="3000"
-        
-             >
-          {/* <!-- Section: Design Block --> */}
-          <section class="mb-32 text-center md:text-left">
-            {/* <h2 class="mb-12 text-center text-3xl font-bold">Latest articles</h2> */}
-
-            <div class="mb-6 flex flex-wrap">
-              <div class="mb-6 ml-auto w-full shrink-0 grow-0 basis-auto px-3 md:mb-0 md:w-3/12">
-                <div
-                  class="relative bg-white mb-6 overflow-hidden rounded-lg bg-cover bg-no-repeat shadow-lg dark:shadow-black/20"
-                  data-te-ripple-init
-                  data-te-ripple-color="light"
-                >
-                  <img src={hcah} class="w-full" alt="Louvre" />
-                  <a href="#!">
-                    <div class="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100 bg-[hsla(0,0%,98.4%,.15)]"></div>
-                  </a>
-                </div>
-              </div>
-
-              <div class="mb-6 mr-auto w-full shrink-0 grow-0 basis-auto px-3 md:mb-0 md:w-9/12 xl:w-7/12">
-                <h5 class="mb-3 text-lg font-bold text-white">
-                  Welcome to HealthCare At Home
-                </h5>
-                <div class="mb-3 gap-2 flex items-center justify-center text-sm font-medium text-danger dark:text-danger-500 md:justify-start">
-                  <img src={conserns1} alt="" className="w-6 text-white " />
-                  <p className="text-neutral-100 dark:text-neutral-300">Health & Medical</p>
-                </div>
-                 
-                <p class="text-neutral-100 dark:text-neutral-300">
-                  Pioneer of delivering professional and quality health care at
-                  home in Bangladesh.
-                </p>
-              </div>
-            </div>
-
-            <div class="mb-6 flex flex-wrap">
-              <div class="mb-6 ml-auto w-full shrink-0 grow-0 basis-auto px-3 md:mb-0 md:w-3/12">
-                <div
-                  class="relative mb-6 overflow-hidden rounded-lg bg-cover bg-no-repeat shadow-lg dark:shadow-black/20"
-                  data-te-ripple-init
-                  data-te-ripple-color="light"
-                >
-                  <img src={leap} class="w-18" alt="Louvre" />
-                  <a href="#!">
-                    <div class="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100 bg-[hsla(0,0%,98.4%,.15)]"></div>
-                  </a>
-                </div>
-              </div>
-
-              <div class="mb-6 mr-auto w-full shrink-0 grow-0 basis-auto px-3 md:mb-0 md:w-9/12 xl:w-7/12">
-                <h5 class="mb-3 text-lg font-bold text-white">Welcome to LEAP</h5>
-                <div class="mb-3 gap-2 flex items-center justify-center text-sm font-medium text-primary dark:text-primary-400 md:justify-start">
-                  <img src={conserns2} alt="" className="w-6 text-white" />
-                  <p className="text-neutral-100">Physiotherapy Center</p>
-                </div>
-                
-                <p class="text-neutral-100 dark:text-neutral-300">
-                  LEAP - a well equipped center in Gulshan for physiotherapy,
-                  rehabilitation and sports injuries.
-                </p>
-              </div>
-            </div>
-
-            <div class="mb-6 flex flex-wrap">
-              <div class="mb-6 ml-auto w-full shrink-0 grow-0 basis-auto px-3 md:mb-0 md:w-3/12">
-                <div
-                  class="relative mb-6 overflow-hidden rounded-lg bg-cover bg-white bg-no-repeat shadow-lg dark:shadow-black/20"
-                  data-te-ripple-init
-                  data-te-ripple-color="light"
-                >
-                  <img src={rose} class="w-full" alt="Louvre" />
-                  <a href="#!">
-                    <div class="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100 bg-[hsla(0,0%,98.4%,.15)]"></div>
-                  </a>
-                </div>
-              </div>
-
-              <div class="mb-6 mr-auto w-full shrink-0 grow-0 basis-auto px-3 md:mb-0 md:w-9/12 xl:w-7/12">
-                <h5 class="mb-3 text-lg font-bold text-white">
-                  Welcome to Rose Beauty Garden
-                </h5>
-                <div class="mb-3 gap-2 flex items-center justify-center text-sm font-medium   md:justify-start">
-                  <img src={conserns3} alt="" className="w-6 text-white" />
-                  <p className="  font-bold text-white">Makeover</p>
-                </div>
-                 
-                <p class="text-neutral-100 dark:text-neutral-300">
-                  Everyone wants to look good, especially when it is the time to
-                  party. 
-                </p>
-              </div>
-            </div>
-            <div class="mb-6 flex flex-wrap">
-              <div class="mb-6 ml-auto w-full shrink-0 grow-0 basis-auto px-3 md:mb-0 md:w-3/12">
-                <div
-                  class="relative mb-6 overflow-hidden rounded-lg bg-cover bg-white bg-no-repeat shadow-lg dark:shadow-black/20"
-                  data-te-ripple-init
-                  data-te-ripple-color="light"
-                >
-                  <img src={tgr} class="w-full" alt="Louvre" />
-                  <a href="#!">
-                    <div class="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100 bg-[hsla(0,0%,98.4%,.15)]"></div>
-                  </a>
-                </div>
-              </div>
-
-              <div class="mb-6 mr-auto w-full shrink-0 grow-0 basis-auto px-3 md:mb-0 md:w-9/12 xl:w-7/12">
-                <h5 class="mb-3 text-lg font-bold text-white">
-                  Welcome to Tulip Garden & Resturent
-                </h5>
-                <div class="mb-3 gap-2 flex items-center justify-center text-sm font-medium  md:justify-start">
-                  <img src={conserns4} alt="" className="w-6 text-white" />
-                 <p className="text-white"> Fast food restaurant</p>
-                </div>
-               
-              </div>
-            </div>
-          </section>
-        </div>
-        <div class="container   mx-auto md:px-6"
-        data-aos="zoom-in"
-        data-aos-offset="300"
-        data-aos-delay="5000"
-        data-aos-duration="3000"
+      <h2 class="mb-12 text-center mt-9 text-2xl font-bold text-white py-7">
+        THE IMPORTANCE OF FOREIGN POLICY IN THE DEVELOPMENT AND RESURGENCE OF A
+        COUNTRY.
+      </h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-1 gap-2 px-4 mx-4  items-center justify-items-center">
+        <div
+          class=" "
+          // data-aos="zoom-in"
+          // data-aos-offset="300"
+          // data-aos-delay="5000"
+          // data-aos-duration="3000"
         >
-          {/* <!-- Section: Design Block --> */}
-          <section class="mb-32 text-center md:text-left">
-            {/* <h2 class="mb-12 text-center text-3xl font-bold">Latest articles</h2> */}
-
-            <div class="mb-6 flex flex-wrap">
-              <div class="mb-6 ml-auto w-full shrink-0 grow-0 basis-auto px-3 md:mb-0 md:w-3/12">
-                <div
-                  class="relative mb-6 overflow-hidden rounded-lg bg-white  shadow-lg dark:shadow-black/20"
-                  data-te-ripple-init
-                  data-te-ripple-color="light"
-                >
-                  <img src={mrg} class="w-20" alt="Louvre" />
-                  <a href="#!">
-                    <div class="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100 bg-[hsla(0,0%,98.4%,.15)]"></div>
-                  </a>
+          {/* <!-- component --> */}
+          <div class="container   mx-auto w-full h-full">
+            <div class="relative wrap overflow-hidden p-10 h-full">
+              <div class="new-timeline  border-2-2 absolute border-opacity-20 border-gray-100 h-full border"></div>
+              {/* <!-- right timeline --> */}
+              <div class="mb-8 flex justify-between items-center w-full right-timeline">
+                <div class="order-1 w-5/12"></div>
+                <div class="z-20 flex items-center order-1 bg-gray-800 shadow-xl w-8 h-8 rounded-full">
+                  <h1 class="mx-auto font-semibold text-lg text-white">1</h1>
+                </div>
+                <div class="order-1 bg-gray-400 rounded-lg shadow-xl w-5/12 px-6 py-4">
+                  {/* <h3 class="mb-3 font-bold text-gray-800 text-xl">Lorem Ipsum</h3> */}
+                  <p class="text-sm leading-snug tracking-wide text-gray-900 text-opacity-100">
+                    This article that I am writing will not just emphasize on
+                    the title but will look into the broader perspectives,
+                    factors and effects the foreign policy instrument has in the
+                    growth and sustenance of any country in the world. But I
+                    will mainly emphasize on the foreign policy outline of
+                    Bangladesh as it is getting a lot of exposure and may play
+                    an important role in the upcoming future. And also mainly
+                    because I love my country and really want the best for my
+                    motherland.
+                  </p>
                 </div>
               </div>
 
-              <div class="mb-6 mr-auto w-full shrink-0 grow-0 basis-auto px-3 md:mb-0 md:w-9/12 xl:w-7/12">
-                <h5 class="mb-3 text-lg font-bold text-white">Welcome to MRG</h5>
-                <div class="mb-3 gap-2 flex items-center justify-center text-sm font-medium text-danger dark:text-danger-500 md:justify-start">
-                <img src={conserns6} alt="" className="w-6 text-white" />
-
-                 <p className="text-white"> Group of Company</p>
+              {/* <!-- left timeline --> */}
+              <div class="mb-8 flex justify-between flex-row-reverse items-center w-full left-timeline">
+                <div class="order-1 w-5/12"></div>
+                <div class="z-20 flex items-center order-1 bg-gray-800 shadow-xl w-8 h-8 rounded-full">
+                  <h1 class="mx-auto text-white font-semibold text-lg">2</h1>
                 </div>
-               
+                <div class="order-1 bg-red-400 rounded-lg shadow-xl w-5/12 px-6 py-4">
+                  {/* <h3 class="mb-3 font-bold text-white text-xl">Lorem Ipsum</h3> */}
+                  <p class="text-sm font-medium leading-snug tracking-wide text-white text-opacity-100">
+                    The foreign policy is the tool through which a country
+                    negotiates, discusses and conducts trade with other nations
+                    of the world. The more strong, direct and transparent the
+                    policy is the better the economy, security and peaceful a
+                    country is.
+                  </p>
+                </div>
+              </div>
+
+              {/* <!-- right timeline --> */}
+              <div class="mb-8 flex justify-between items-center w-full right-timeline">
+                <div class="order-1 w-5/12"></div>
+                <div class="z-20 flex items-center order-1 bg-gray-800 shadow-xl w-8 h-8 rounded-full">
+                  <h1 class="mx-auto font-semibold text-lg text-white">3</h1>
+                </div>
+                <div class="order-1 bg-gray-400 rounded-lg shadow-xl w-5/12 px-6 py-4">
+                  {/* <h3 class="mb-3 font-bold text-gray-800 text-xl">
+                    Lorem Ipsum
+                  </h3> */}
+                  <p class="text-sm leading-snug tracking-wide text-gray-900 text-opacity-100">
+                    Bangladesh as we know is a small riverine country which is
+                    bordered by India on all three sides and only shares a
+                    border with Myanmar (Burma) on the south-east side. The
+                    country is highly dependent on India for most of its Imports
+                    and Exports. The Foreign Direct Investment from countries
+                    however does not even count India in the top 4. It is odd
+                    since India being an influential regional partner who even
+                    helped the country to be liberated from the then West
+                    Pakistan does not invest in Bangladesh. This is nevertheless
+                    covered up by the fact that any international policies or
+                    dialogue the country makes must be in-line with the national
+                    interests of India. This is more assured by the support of
+                    the Indian Government on the present Bangladeshi Government
+                    regardless of the criticisms inside and outside the country.
+                    The top Foreign Direct Investors are the U.S.A, U.K.,
+                    Netherlands, Singapore and last but not the least China.
+                    Presently China has overtaken the position of the top
+                    Foreign Investor and has spread out its wealth in a number
+                    of sectors in the country. Bangladesh in the recent years
+                    has seen a surge of FDI which prompts the title of my
+                    article and will ultimately make the country a key player in
+                    regional politics.
+                  </p>
+                </div>
+              </div>
+
+              {/* <!-- left timeline --> */}
+              <div class="mb-8 flex justify-between flex-row-reverse items-center w-full left-timeline">
+                <div class="order-1 w-5/12"></div>
+                <div class="z-20 flex items-center order-1 bg-gray-800 shadow-xl w-8 h-8 rounded-full">
+                  <h1 class="mx-auto text-white font-semibold text-lg">4</h1>
+                </div>
+                <div class="order-1 bg-red-400 rounded-lg shadow-xl w-5/12 px-6 py-4">
+                  {/* <h3 class="mb-3 font-bold text-white text-xl">Lorem Ipsum</h3> */}
+                  <p class="text-sm font-medium leading-snug tracking-wide text-white text-opacity-100">
+                    Since the Foreign Policy of Bangladesh was always in
+                    parallel and sympathetic to the Indian foreign policies,
+                    Bangladesh had only one country to appease for. But now due
+                    to the global shift in alliances and interests Bangladesh
+                    must carefully select and direct its policies in a way that
+                    it does not infuriate its neighbor and also can work with
+                    countries like China who has become a threat to its neighbor
+                    (India). The game has already begun when Bangladesh accepted
+                    huge amounts of investment from China, when they were
+                    already threatening India over territorial sovereignty of
+                    the Galwan Valley and Aksai Chin. Bangladesh along with
+                    other countries surrounding India has also taken support of
+                    the Chinese Aggression towards India since most of them are
+                    silent and bankrolled by the Chinese, for e.g. Pakistan and
+                    Sri Lanka.
+                  </p>
+                </div>
               </div>
             </div>
-
-            <div class="mb-6 flex flex-wrap">
-              <div class="mb-6 ml-auto w-full shrink-0 grow-0 basis-auto px-3 md:mb-0 md:w-3/12">
-                <div
-                  class="relative mb-6 overflow-hidden rounded-lg bg-white bg-cover bg-no-repeat shadow-lg dark:shadow-black/20"
-                  data-te-ripple-init
-                  data-te-ripple-color="light"
-                >
-                  <img src={tmcc} class="w-18" alt="Louvre" />
-                  <a href="#!">
-                    <div class="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100 bg-[hsla(0,0%,98.4%,.15)]"></div>
-                  </a>
-                </div>
-              </div>
-
-              <div class="mb-6 mr-auto w-full shrink-0 grow-0 basis-auto px-3 md:mb-0 md:w-9/12 xl:w-7/12">
-                <h5 class="mb-3 text-lg font-bold text-white">
-                  Welcome to Trishal Medical Center
-                </h5>
-                <div class="mb-3 flex items-center gap-3 justify-center text-sm font-medium text-primary dark:text-primary-400 md:justify-start">
-                <img src={conserns5} alt="" className="w-6 text-white" />
-
-                  <p className="text-white">Health & Medical</p>
-                </div>
-                
-                <p class="text-neutral-100 dark:text-neutral-300">
-                  A premier diagnostic & hospital in Trishal, Mymensingh serving
-                  and caring for the people.
-                </p>
-              </div>
-            </div>
-
-            <div class="mb-6 flex flex-wrap">
-              <div class="mb-6 ml-auto w-full shrink-0 grow-0 basis-auto px-3 md:mb-0 md:w-3/12">
-                <div
-                  class="relative mb-6 overflow-hidden rounded-lg bg-cover bg-white bg-no-repeat shadow-lg dark:shadow-black/20"
-                  data-te-ripple-init
-                  data-te-ripple-color="light"
-                >
-                  <img src={tcc} class="w-18" alt="Louvre" />
-                  <a href="#!">
-                    <div class="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100 bg-[hsla(0,0%,98.4%,.15)]"></div>
-                  </a>
-                </div>
-              </div>
-
-              <div class="mb-6 mr-auto w-full shrink-0 grow-0 basis-auto px-3 md:mb-0 md:w-9/12 xl:w-7/12">
-                <h5 class="mb-3 text-lg font-bold text-white">
-                  Welcome to Trishal Convention Center
-                </h5>
-                <div class="mb-3 gap-2 flex items-center justify-center text-sm font-medium   md:justify-start">
-                <img src={conserns7} alt="" className="w-6 text-white" />
-
-                  <p className="text-white">Performance & event venue</p>
-                </div>
-                
-              </div>
-            </div>
-            <div class="mb-6 flex flex-wrap">
-              <div class="mb-6 ml-auto w-full shrink-0 grow-0 basis-auto px-3 md:mb-0 md:w-3/12">
-                <div
-                  class="relative mb-6 overflow-hidden rounded-lg bg-cover  bg-no-repeat shadow-lg dark:shadow-black/20"
-                  data-te-ripple-init
-                  data-te-ripple-color="light"
-                >
-                  <img src={innrah} class="w-full" alt="Louvre" />
-                  <a href="#!">
-                    <div class="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100 bg-[hsla(0,0%,98.4%,.15)]"></div>
-                  </a>
-                </div>
-              </div>
-
-              <div class="mb-6 mr-auto w-full shrink-0 grow-0 basis-auto px-3 md:mb-0 md:w-9/12 xl:w-7/12">
-                <h5 class="mb-3 text-lg font-bold text-white">
-                  Welcome to INAARAH Clothings
-                </h5>
-                <div class="mb-3 gap-2 flex items-center justify-center text-sm font-medium  md:justify-start">
-                <img src={conserns8} alt="" className="w-6 text-white" />
-
-                <p className="text-white">  Clothings Business</p>
-                </div>
-                 
-              </div>
-            </div>
-          </section>
+          </div>
         </div>
       </div>
-
-       
     </div>
   );
 };

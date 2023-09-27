@@ -18,32 +18,11 @@ const NewsMediaLanding = () => {
               className=" lg:text-[43px] font-bold text-[20px] text-left   text-transparent text-8xl    bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 "
             >
               {" "}
-              WE ARE MORE OBEDIENT & RESPONSIBLE FOR OUR CLIENTS.
+              On researching big data and implementing it in multiple ways and
+              producing it effectively & efficiently.
             </h1>
 
-            <h1
-              className="mb-5 text-lg  lg:text-2xl max-w-lg mt-7 font-bold   md:text-[25px] poppins-t "
-              style={{ lineHeight: "120%", color: "white" }}
-            >
-              Strategy and execution from the company that launched the
-              industry.{" "}
-            </h1>
-
-            {/* <div className="flex items-center mt-2 font-bold">
-              <FaPhoneVolume
-                className="lg:text-2xl text-[20px] "
-                style={{ color: "white" }}
-              />
-              <span className="lg:text-2xl text-[20px]  text-transparent text-8xl    bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">
-                {" "}
-                
-                <a href='tel:+01619848555' className="   	">
-              Call Now: 01619848555  
-              </a> 
-              </span>
-            </div> */}
-
-             
+            
           </div>
 
           <div class="  sm:max-w-xs lg:max-w-xl text-left md:ml-8 lg:order-1 order-2   lg:mt-0  ">

@@ -40,14 +40,15 @@ const Nav = () => {
            AI
         </NavLink>
       </li>
-      {/* <li className=" nav-item  p-2   	">
+      <li className="nav-item p-2 	">
         <NavLink
-          className={({ isActive }) => (isActive ? `${active}` : `${normal}`)}
-          to="/gallery"
+          className=           {({ isActive }) => (isActive ? `${active}` : `${normal} `)}
+          to="/blog"
         >
-          Gallery
+           Blog
         </NavLink>
-      </li> */}
+      </li>
+      
       <li className="nav-item p-2 	">
         <NavLink
           className={({ isActive }) => (isActive ? `${active}` : `${normal}`)}
