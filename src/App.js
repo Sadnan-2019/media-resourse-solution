@@ -12,6 +12,7 @@ import Carrer from './Components/Carrer/Carrer';
 // import Contact from './Components/Contact/Contact';
 import NewContact from './Components/Contact/NewContact';
 import TopNav from './Components/TopNav/TopNav';
+import Blog from './Components/Blog/Blog';
 // import Working from './Components/Working/Working';
 
 function App() {
@@ -28,6 +29,7 @@ function App() {
 
         <Route path="/news-media" element={<NewsMedia />}></Route>
         <Route path="/career" element={<Carrer/>}></Route>
+        <Route path="/blog" element={<Blog/>}></Route>
         <Route path="/about" element={<About />}></Route>
         <Route path="/contact" element={<NewContact />}></Route>
       </Routes>
