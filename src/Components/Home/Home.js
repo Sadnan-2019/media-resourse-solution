@@ -17,12 +17,14 @@ const Home = () => {
         <div>
     <Landing></Landing>
     <Service></Service>
-    <WeDO></WeDO>
-    <Review></Review>
+    {/* <WeDO></WeDO> */}
+    
     <Achievement></Achievement>   
     <Working></Working>
     {/* <Clients></Clients> */}
-    <Contact></Contact>
+
+    <Review></Review>
+   <Contact></Contact>
 
     <Motion></Motion>
         </div>
