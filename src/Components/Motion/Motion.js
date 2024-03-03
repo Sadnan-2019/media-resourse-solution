@@ -29,7 +29,7 @@ const Motion = () => {
                         value: "",
                     },
                 },
-                fpsLimit: 120,
+                fpsLimit: 80,
                 interactivity: {
                     events: {
                         onClick: {
