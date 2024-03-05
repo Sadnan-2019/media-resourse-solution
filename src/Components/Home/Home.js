@@ -26,7 +26,7 @@ const Home = () => {
     <Review></Review>
    <Contact></Contact>
 
-    <Motion></Motion>
+    {/* <Motion></Motion> */}
         </div>
     );
 };
