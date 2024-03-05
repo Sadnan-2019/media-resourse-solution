@@ -302,14 +302,14 @@ const Review = () => {
                     </div>
                   </div>
 
-                  {/* ///new slider// */}
+                
 
                  
                 </div>
  
               </div>
 
-              {/* ///second  */}
+           
             </section>
           </div>
           <div className="blog">
@@ -350,7 +350,7 @@ const Review = () => {
                       <p className="text-xl font-semibold leadi">
                         Mumtahin Chowdhury
                       </p>
-                      {/* <p className="text-sm uppercase">Aliquam illum</p> */}
+                   
                     </div>
                     <div class="flex gap-0.5 text-white items-center justify-center ">
                       <svg
@@ -432,7 +432,7 @@ const Review = () => {
                       <p className="text-xl font-semibold leadi">
                       Zareef Akbar
                       </p>
-                      {/* <p className="text-sm uppercase">Aliquam illum</p> */}
+                    
                     </div>
                     <div class="flex gap-0.5 text-white items-center justify-center ">
                       <svg
@@ -515,7 +515,7 @@ const Review = () => {
                       <p className="text-xl font-semibold leadi">
                       Shahrin Chowdhury
                       </p>
-                      {/* <p className="text-sm uppercase">Aliquam illum</p> */}
+                   
                     </div>
                     <div class="flex gap-0.5 text-white items-center justify-center ">
                       <svg
@@ -569,7 +569,7 @@ const Review = () => {
                  
               </div>
 
-              {/* ///second  */}
+            
             </section>
           </div>
         
