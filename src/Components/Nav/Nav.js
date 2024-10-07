@@ -23,6 +23,14 @@ const Nav = () => {
           Home
         </NavLink>
       </li>
+      <li className="nav-item p-2 d-none	">
+        <NavLink
+          className={({ isActive }) => (isActive ? `${active}` : `${normal}`)}
+          to="/mind-map"
+        >
+          Mind Map
+        </NavLink>
+      </li>
 
       <li className="nav-item p-2 	">
         <NavLink
