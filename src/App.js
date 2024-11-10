@@ -13,6 +13,7 @@ import Carrer from './Components/Carrer/Carrer';
 import NewContact from './Components/Contact/NewContact';
 import TopNav from './Components/TopNav/TopNav';
 import Blog from './Components/Blog/Blog';
+import MindMap from './Components/MindMap/MindMap';
 // import Working from './Components/Working/Working';
 
 function App() {
@@ -29,6 +30,7 @@ function App() {
 
         <Route path="/news-media" element={<NewsMedia />}></Route>
         <Route path="/career" element={<Carrer/>}></Route>
+        <Route path="/mind-map" element={<MindMap/>}></Route>
         <Route path="/blog" element={<Blog/>}></Route>
         <Route path="/about" element={<About />}></Route>
         <Route path="/contact" element={<NewContact />}></Route>
