@@ -16,13 +16,13 @@ const MindMapLanding = () => {
               <p class="max-w-lg mt-3 text-xl leading-relaxed text-gray-600 dark:text-gray-300 md:mt-8">
                 Amet minim mollit non deserunt ullamco est sit aliqua dolor do
                 amet sint. Velit officia consequat duis enim velit mollit.
-                Exercitation veniam consequat sunt nostrud amet.BOOKED YOUR DOCTOR                                                                                          
+                Exercitation veniam consequat sunt nostrud amet.                                                                                         
               </p>
 
               <div className=" ">
                 <a
                   href="/"
-                  className="  btn-sm lg:p-2 rounded-full      bg-[#38235D] inline-flex  md:inline-flex items-center     border text-white "
+                  className="  btn-sm lg:p-4 rounded-full      bg-[#38235D] inline-flex  md:inline-flex items-center     border text-white "
                 >
                   <span className="text-sm font-medium lg:text-lg">
                     {" "}
