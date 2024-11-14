@@ -121,24 +121,14 @@ const Footer = () => {
                   aria-label="Footer Services Nav"
                   class="mt-6 flex flex-col space-y-1"
                 >
-                  <a
-                    class="text-white transition hover:text-gray-700/75"
-                    href="/"
-                  >
-                    Marketing
-                  </a>
+                   
                   <a
                     class="text-white transition hover:text-gray-700/75"
                     href="/"
                   >
                     Graphic Design
                   </a>
-                  <a
-                    class="text-white transition hover:text-gray-700/75"
-                    href="/"
-                  >
-                    App Development
-                  </a>
+                  
                   <a
                     class="text-white transition hover:text-gray-700/75"
                     href="/"
@@ -174,12 +164,7 @@ const Footer = () => {
                   aria-label="Footer Support Nav"
                   class="mt-6 flex flex-col space-y-1"
                 >
-                  <a
-                    class="text-white transition hover:text-gray-700/75"
-                    href="/"
-                  >
-                    FAQs
-                  </a>
+                   
 
                   <a
                     class="text-white transition hover:text-gray-700/75"
